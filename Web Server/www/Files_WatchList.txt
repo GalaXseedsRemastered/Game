@@ -1,0 +1,4 @@
+config_raw.xml Config.php
+EngineConfig.xml services\zonelist.php
+userinfoscript_raw.txt services\userinfoscript.php
+GetInventoryScript_raw.txt services\GetInventoryScript.php

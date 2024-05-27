@@ -1,0 +1,314 @@
+<lang>
+
+	<gizmo id="0">
+		<plant_stretcher id="0" text="Plant Stretcher"/>
+		<plant_stretcher id="1" text="Makes your Plant grow 20% faster, while shortening its lifespan. The Plant Stretcher only affects the first stage of growth."/>
+		<glass_cloche id="2" text="Glass Cloche"/>
+		<glass_cloche id="3" text="Makes your Plant grow 20% slower, while making its lifespan longer."/>
+		<stem_coloreon id="4" text="Stem Coloreon"/>
+		<stem_coloreon id="5" text="Changes the colour of your Plant's stems and trunk to the colour of the Coloreon."/>
+		<leaf_coloreon id="6" text="Leaf Coloreon"/>
+		<leaf_coloreon id="7" text="Changes the colour of your Plant's leaves to the colour of the Coloreon."/>
+		<flower_coloreon id="8" text="Flower Coloreon"/>
+		<flower_coloreon id="9" text="Changes the colour of your Plant's flowers to the colour of the Coloreon."/>
+		<clay_spout id="10" text="Clay Spout"/>
+		<clay_spout id="11" text="Gives a 20% health bonus to your Plant."/>
+		<power_shower id="12" text="Power Shower"/>
+		<power_shower id="13" text="Gives a 40% health bonus to your Plant."/>
+		<thunder_scissors id="14" text="Thunder Scissors"/>
+		<thunder_scissors id="15" text="Increases your Plant's flower count by 20%."/>
+		<twin_pruner id="16" text="Twin Pruner"/>
+		<twin_pruner id="17" text="Decreases your Plant's flower count by 20%."/>
+		<flegelepruner id="18" text="Flegelepruner"/>
+		<flegelepruner id="19" text="Increases the leaf count of your Plant by 20%."/>
+		<craggy_shears id="20" text="Craggy Shears"/>
+		<craggy_shears id="21" text="Decreases the leaf count of your Plant by 20%."/>
+		<pumptiller id="22" text="Pumptiller"/>
+		<pumptiller id="23" text="Enables your Plant's seeds to produce more flowers."/>
+		<magnimus id="24" text="Magnimus"/>
+		<magnimus id="25" text="Shrinks your entire Plant."/>
+		<furrus id="26" text="Furrus"/>
+		<furrus id="27" text="Super-sizes your entire Plant."/>
+		<stem_comb id="28" text="Stem Comb"/>
+		<stem_comb id="29" text="Scales down the trunk and stems of your Plant by 20%."/>
+		<bone_scythe id="30" text="Bone Scythe"/>
+		<bone_scythe id="31" text="Scales down the trunk and stems of your Plant by 40%."/>
+		<flaskeon id="32" text="Flaskeon"/>
+		<flaskeon id="33" text="Doubles the size of all leaves on your Plant."/>
+		<plain_ferty id="34" text="Plain Ferty"/>
+		<plain_ferty id="35" text="Doubles the size of every flower on your Plant."/>
+		<mite_mister id="36" text="Mite Mister"/>
+		<mite_mister id="37" text="Changes the angle of all stems on your Plant."/>
+		<slimus id="38" text="Slimus"/>
+		<slimus id="39" text="Enables your Plant to skip a growth stage."/>
+	</gizmo>
+
+	<wearable id="1">
+		<the_grand_slam id="0" text="The Grand Slam"/>
+		<the_grand_slam id="1" text="Named for the noise it makes when it hits your head, the Grand Slam should be worn only by hard-headed Seedizens."/>
+		<the_graduate id="2" text="The Graduate"/>
+		<the_graduate id="3" text="Seedizens who wear this Get-up become graduates of this shop's prestigious Bachelor of Purchasing a Hat program."/>
+		<the_saturday_night id="4" text="The Saturday Night"/>
+		<the_saturday_night id="5" text="Despite the numerous warning labels on this item, The Saturday Night CAN, in fact, be worn on Saturday night."/>
+		<the_propeller id="6" text="The Propeller"/>
+		<the_propeller id="7" text="At one time, these hats were worn by every inhabitant of planet Noodelor, who were convinced The Propellor would enable them to fly.  Sadly, there are no more inhabitants of planet Noodelor.  Oh well.  At least the hats survived."/>
+		<el_hatto_grande id="8" text="El Hatto Grande"/>
+		<el_hatto_grande id="9" text="You can think of this as two get-ups in one, as el Hatto Grandes regularly eat ten-gallon hats for lunch."/>
+		<the_bovine_beret id="10" text="The Bovine Beret"/>
+		<the_bovine_beret id="11" text="This is the closest many of us will get to seeing a ferocious Moobus. It is a creature so terrifying that this Get-up is only a vague guess at what the terror of planet Milkulon might look like."/>
+		<the_berriet id="12" text="The Berriet"/>
+		<the_berriet id="13" text="While it may look nice at first glance, the Berriet puts the wearer in danger of having his head devoured by gangs of gigantic roving Snarfuses from Hooptilon Farfic.  Buyer beware!"/>
+		<the_kat_kap id="14" text="The Kat Kap"/>
+		<the_kat_kap id="15" text="If you absolutely, positively MUST make yourself look like a purrus, this hat will do the trick."/>
+		<the_hare_style id="16" text="The Hare Style"/>
+		<the_hare_style id="17" text="Why not amuse your friends with a cuddly pair of hoppus ears? Just try not to leave behind little pellets if you visit their Pods."/>
+		<the_windsor id="18" text="The Windsor"/>
+		<the_windsor id="19" text="All of our Windsors come pre-tied so that you don't have to spend half an hour in front of the mirror trying to figure them out."/>
+		<the_windsor id="20" text="The Mammoth"/>
+		<the_windsor id="21" text="This hat is a favourite of Seedizens who regularly travel around with their drycleaning.  You can hang an entire three-piece suit from each horn."/>
+		<the_ruler id="22" text="The Ruler"/>
+		<the_ruler id="23" text="This Get-up endows the wearer with the ability to act like a pompous jerk.  It rules!"/>
+		<the_magistic id="24" text="The Magistic"/>
+		<the_magistic id="25" text="It would be much more impressive to show your friends how you can pull a hoppus out of your hat if the little guy would stay hidden for more than three seconds."/>
+		<the_enchanter id="26" text="The Enchanter"/>
+		<the_enchanter id="27" text="Owners of this hat can make it magically fly onto their heads by reciting an ancient incantation and collecting a pouch full of supernaturally-charged talismans.  Or they can just wear it the easy way."/>
+		<the_day_trader id="28" text="The Day Trader"/>
+		<the_day_trader id="29" text="A favourite of Botanickel-hungry Seedizens everywhere, the Day Trader is the hat of choice for folks with a talent for weeding and seeding."/>
+		<the_pylonius id="30" text="The Pylonius"/>
+		<the_pylonius id="31" text="The universe is full of too many dangers to count, but with this hat, you can warn your fellow Seedizens about 104567 of them."/>
+		<the_butterfly id="32" text="The Butterfly"/>
+		<the_butterfly id="33" text="Add a touch of class and refinement to your appearance with this elegant, tasteful tie. (Note: this item is made from two nacho chips fused together with spray cheese.)"/>
+		<the_gorgoth id="34" text="The Gorgoth"/>
+		<the_gorgoth id="35" text="Now you can make your head look like the armoured toenails of a Smellgrathian Barfhog!  Awesome!"/>
+		<the_jester id="36" text="The Jester"/>
+		<the_jester id="37" text="This hat comes with its own laugh track so that all your jokes will sound funny, even if no one's laughing."/>
+		<the_hoser id="38" text="The Hoser"/>
+		<the_hoser id="39" text="Mined from the frozen toqueshafts of Northern Coldicus, The Hoser will keep that tiny patch on the top of your head warm all winter long."/>
+		<the_pillbee id="40" text="The Pillbee"/>
+		<the_pillbee id="41" text="Made famous by the fashionable Smacky-O in the Third Era of Intergalactic Peace, this hat features a buzzum playfully snuggled into its brim."/>
+		<the_flycatcher id="42" text="The Flycatcher"/>
+		<the_flycatcher id="43" text="Wear this hat when you want immediate attention from every winged insect in the area."/>
+		<the_b_house id="44" text="The B-House"/>
+		<the_b_house id="45" text="Birdhouses are for the birds.  Wear this Get-up to attract a colony of buzzums, and let their constant stream of sticky honey flow down onto your face."/>
+		<the_hun_zinger id="46" text="The Hun-zinger"/>
+		<the_hun_zinger id="47" text="This hat is a tribute to the people of Fleebas 17, who have to carry jars of honey on their heads from the honey well to their village, trudging 48 long snerblats in the hot suns."/>
+		<the_rustler id="48" text="The Rustler"/>
+		<the_rustler id="49" text="Saddle up your cloppity and head for the Subterra mesa.  There's a herd of stampeding buzzums to round up! Yeeee-HAWW!!"/>
+		<the_queen_b id="50" text="The Queen B"/>
+		<the_queen_b id="51" text="Command the respect and adoration of buzzums everywhere by declaring yourself ruler of the Hive!"/>
+		<the_derbeam id="52" text="The Derbeam"/>
+		<the_derbeam id="53" text="Want to show someone you have a bright idea but just can’t get the words out?  Flick on this stylish cap to let everyone know you’ve had a brainwave!"/>
+		<the_hair_asite id="54" text="The Hair-asite"/>
+		<the_hair_asite id="55" text="What if you had a special friend who could share your innermost thoughts?  And what if you could wear that friend like a hat?  And what if every time it sneezed, you had a brilliant idea?  Well wonder no more! Buy The Hair-isite today!!"/>
+		<the_teepee id="56" text="The Teepee"/>
+		<the_teepee id="57" text="Now you can be the most popular person on a nature hike! Spare a square whenever you like with the most fashionable accessory in the galaxy – no buts about it."/>
+		<the_castle id="58" text="The Sand Sultan"/>
+		<the_castle id="59" text="Feel free to lounge around Strata Sands in this magnificent shovel-sculpted chapeau.  Watch out - the fun's over when the tide comes in!"/>		
+		<ship_lego id="60" text="The Starfighter"/>
+		<ship_lego id="61" text="No one knows why you would actually want to fight stars.  They are very big and fiery.  But when you catch them in your kitchen cupboards nibbling on your foodstuffs, it's time to show those stars who's boss."/>				
+		<the_arrrrgh id="62" text="The Arrrrgh!"/>
+		<the_arrrrgh id="63" text="With the rate of space piracy skyrocketing, it makes sense to masquerade as a bandit to take advantage of the brigand’s code: do not steal from a fellow thief.  If everyone wore a Get-Up like this, piracy as we know it might end!"/>				
+		<the_squortus id="64" text="The Squortus"/>
+		<the_squortus id="65" text="This Get-Up is fashioned after the flatulent squortus, a creature whose gaseous eruptions are so soothing, they will lull you to sleep before you can say “Zzzzz”."/>				
+		<the_brainstorm id="66" text="The Brainstorm"/>
+		<the_brainstorm id="67" text="They say two heads are better than one, which is doubly true when you’re wearing this Get-Up.  Your first brain can concentrate on gardening, while your second brain does math equations, ponders the meaning of life, or thinks about Megaball."/>				
+		<the_claw id="68" text="The Claw"/>
+		<the_claw id="69" text="Did you ever wish you had the help of a third arm?  Or, if you already have three arms, did you ever wish for a fourth?   However you’re built, The Claw is very handy indeed."/>				
+		<peace_and_love id="70" text="The Pacifier"/>
+		<peace_and_love id="71" text="This symbol’s strangely mystical properties cause all who look upon it to throw their guns and bombs in the ocean.  This, unfortunately, caused the terrible Aquatic Wars, in which angry sea creatures took up arms using the guns and bombs that littered their oceans."/>				
+		<metalbulism id="72" text="Metalbulism"/>
+		<metalbulism id="73" text="This symbol’s strangely mystical properties cause all who look upon it to throw their guns and bombs in the ocean.  This, unfortunately, caused the terrible Aquatic Wars, in which angry sea creatures took up arms using the guns and bombs that littered their oceans."/>				
+		<odium id="74" text="Odium"/>
+		<odium id="75" text="Named after their fearless leader, Odon, Odiums were originally worn by the Vertians during the War of Akanthos.  The shape of the helmet was dramatically altered when the Spaceticides emerged victorious and fused the technology learnt from the Insulas to increase its effectiveness during battle.  The Odium also makes for great small talk at parties!"/>				
+		<foam_dome id="76" text="Foam Dome"/>
+		<foam_dome id="77" text="Are you short a finger but still want to cheer on the GalaXseeds Space Force in their quest for brining peace back to GalaXseeds?  Well here’s your chance.  The Foam Dome let’s you root on the GSF and ask Seedizens to pull your finger without sounding weird."/>				
+		<dagegen id="78" text="Dagegen"/>
+		<dagegen id="79" text="A genuine issued GSF helmet, the Dagegen comes complete with removable cover, (reversable in Subterra brown) comfort webbing and matching chin strap.  While no longer deployed by the GSF, the Dagegen has quickly become a collector items in some GalaXseeds circles and remains a great barrier between you and any walls you happen to run into.  Your head will thank you for it later."/>				
+		<the_ouch id="80" text="The Ouch!"/>
+		<the_ouch id="81" text="Two heads are better then one so split yours in half with an Ouch!  You need this Get-Up like you need a hole in the head and in this case, you’ll get both!  You can call it a two for one special if you like but that is probably because your brain has just been cut in half."/>				
+	</wearable>
+
+	<furniture id="2">
+		<hottus id="0" text="Hottus"/>
+		<hottus id="1" text="Despite recent advances in home appliance science, the Hottus still manages to burn the bottom of your tastyus casserole, while keeping the rest of it cool no matter WHICH setting you use."/>
+		<angofa id="2" text="Angofa"/>
+		<angofa id="3" text="In direct opposition to the Tunofa, the ridged seat of this comfortable chair massages your back, encouraging you think about anything BUT gravy."/>
+		<rotofa id="4" text="Rotofa"/>
+		<rotofa id="5" text="The Rotofa has the ability to influence your guests.  Aim it at the suns of Furgulon and your guests will want to stand.  Point it toward the asteroid belt of Flubbicus VII and they'll suddenly feel like sitting!"/>
+		<tunofa id="6" text="Tunofa"/>
+		<tunofa id="7" text="The ridged seat of this comfortable chair massages your back and encourages you to think about gravy."/>
+		<slepofa id="8" text="Slepofa"/>
+		<slepofa id="9" text="We recommend that fans of the Slepofa purchase a new one every night, so that they can always peel back the lid and enjoy the scent of fresh bedding."/>
+		<mirod id="10" text="Mirod"/>
+		<mirod id="11" text="The frame of every Mirod houses a shapeshifting Formus, a creature which tries to imitate anyone who looks at it.  The Formus does this so that it won't be attacked by predators. So every time you look in the Mirod, you won't see yourself - you'll see a Formus trying not to be eaten!"/>
+		<libria id="12" text="Libria"/>
+		<libria id="13" text="For a small monthly fee, the Hal Manax-approved Libria will fill itself only with books that it knows you will enjoy, and books that you'll want to read again.  Why waste your time on a crummy book?  The Libria has everything you read!"/>
+		<trimod id="14" text="Trimod"/>
+		<trimod id="15" text="The most unique feature of the Trimod is its surprise drawer setting.  Open the top drawer, and who knows what you'll find?  It could be socks, it could be underwear ... or it could be a snarling gurrybeastus from the sulphur pits of Nur!  Surprise!"/>
+		<washus id="16" text="Washus"/>
+		<washus id="17" text="When you first use your Washus, it will take a digital composite of your whole body.  Whenever you get dirty, your Washus will pour onto your body a thin, breathable polyplasticus skin that looks like you when you were clean."/>
+		<coolus id="18" text="Coolus"/>
+		<coolus id="19" text="This appliance's lower section keeps things so incredibly cold that anyone who touches them will turn into a block of solid ice.  The upper section keeps things even colder -  so cold, in fact, that they go all the way around to being hot again."/>
+		<melofa id="20" text="Melofa"/>
+		<melofa id="21" text="Many a relaxing Seedizen has fallen prey to the comfortable Melofa, a chair so soft and squishy that folks sink into it so deep, they disappear!"/>
+		<lazofa id="22" text="Lazofa"/>
+		<lazofa id="23" text="Be careful not to sit in your Lazofa if you have anything better to do.  The seat's calming effects have been known to keep people sitting for up to two months with no food and water ... and no bathroom breaks!"/>
+		<noisus id="24" text="Noisus"/>
+		<noisus id="25" text="Using the latest in telepathic technology, the Noisus focuses on whatever annoying song you have stuck in your head, and plays it.  Loudly.  On repeat."/>
+		<layofa id="26" text="Layofa"/>
+		<layofa id="27" text="The Layofa stretch-seat can double as a bed for Seedizens who want a really lousy night's sleep."/>
+		<waykus id="28" text="Waykus"/>
+		<waykus id="29" text="The revolutionary Waykus is guaranteed to get you to work on time with its nearly indestructible shell and its snooze button that doles out low-grade electric shocks every time it's pushed."/>
+		<termina id="30" text="Termina"/>
+		<termina id="31" text="The brand new Termina comes fully-loaded with floating-point speakers, a dual-core Any key, and a copy of the greatest game ever made - SpaceYplantz!"/>
+		<visiona id="32" text="Visiona"/>
+		<visiona id="33" text="Thanks to telepathic technology, the Visiona displays images of what you're thinking.  Be careful when watching it with other people, especially if you don't really like them!"/>
+		<tubos id="34" text="Tubos"/>
+		<tubos id="35" text="The most exciting feature of this year's Tubos model is the variable-setting faucet, which can pour three different types of fluids: water, sports drink, and nacho cheese."/>
+		<pianorga id="36" text="Pianorga"/>
+		<pianorga id="37" text="Cut straight from the Blappersnort quagmires of planet Therma, the Pianorga is a fine addition to any Pod.  With practice, one can duplicate the endearing musical mating call of the flatulent squortus."/>
+		<fruitabilis id="38" text="Fruitabilis"/>
+		<fruitabilis id="39" text="This table is inspired by one of nature's most fascinating creations, the juicyus, which makes its hair look like fruit to keep predators from snacking on its delicious body."/>
+		<spittus id="40" text="Spittus"/>
+		<spittus id="41" text="There are many rare and beautiful artifacts in the galaxy, culled from the most remote corners or space.  This mysterious fountain depicts some sort of alien demi-god and his robotic familiar. Who these figures represent is a mystery lost to time."/>
+		<luminettae id="42" text="Luminettae"/>
+		<luminettae id="43" text="This lamp is powered by three tiny beetluxes from Lumas mysterious Glow Swamps."/>
+		<pofa id="44" text="Pofa"/>
+		<pofa id="45" text="This artificial chair might trick your guests into thinking it is a real live Pofa, bounding across the deserts of Scratchalus with the wind blowing across its fuzzy cushions. Don't worry – no Pofas were harmed in the making of this item."/>
+		<porados id="46" text="Porados"/>
+		<porados id="47" text="This dressing screen is ideal for shy Seedizens who feel too bashful to change Get-ups in front of their friends."/>
+		<buzzumarium id="48" text="Buzzumarium"/>
+		<buzzumarium id="49" text="This genuine buzzum hive replica can be used to store your paperclips and broken shoelaces.  It's decorative AND functional."/>
+		<stickytappus id="50" text="Stickytappus"/>
+		<stickytappus id="51" text="When water isn't refreshing enough, reach for a warm thick glass of oozy, sticky honey.  Nothing quenches your thirst on a hot day, especially after running a marathon."/>
+		<hexoma id="52" text="Hexoma"/>
+		<hexoma id="53" text="This stylish totem was discovered on planet Worfoofi, where a village of buzzum-worshippers traded it for two painted layofas and a pack of Snackle Crisps."/>
+		<beematorium id="54" text="Beematorium"/>
+		<beematorium id="55" text="Use this convection oven when you want something hot, crispy and honey-flavoured in mere minutes!"/>
+		<hive_d_or id="56" text="Hive D'Or"/>
+		<hive_d_or id="57" text="This beautiful trophy is crafted from fine, high-quality pewter and thinly coated with artificial gold-coloured paint.  If you put it up to your ear, you can hear the ocean."/>
+		<hiveaway id="58" text="Hiveaway"/>
+		<hiveaway id="59" text="Functioning much like a step trash can, this device can free up your brain's memory by storing anything you choose to forget.  You can always come back for stuff, but you probably won't, since you've already forgotten it."/>
+		<buzzongos id="60" text="Buzzongos"/>
+		<buzzongos id="61" text="Bounce to the beat of these beautiful hand-crafted drums, which are made by knocking down a buzzum hive, hollowing it out, stretching a nergus hide over its mouth, and then running like crazy before the enraged buzzums catch you."/>
+		<3_minutes_of_destruction id="62" text="3 Minutes Of Destruction"/>
+		<3_minutes_of_destruction id="63" text="Not to be confused with Seven Minutes in Heaven, this nasty piece of work will break anything you throw at it using three different settings:  Trash, Breakify, and Totally Destroyotize."/>
+		<raw_goowage id="64" text="Raw Goowage"/>
+		<raw_goowage id="65" text="Just one whiff of the stuff oozing out of this barrel makes your lungs pack their bags for a vacation.  Who knew your lungs carried such adorably tiny suitcases?"/>
+		<stinktank id="66" text="Stinktank"/>
+		<stinktank id="67" text="If you thought nothing could bog up a place worse than a Smellgrathian Barfhog, you were wrong!  This air un-freshener takes regular refills of garbage to keep it running."/>
+		<doom_kaboom id="68" text="Doom Kaboom"/>
+		<doom_kaboom id="69" text="The best thing about having a missile silo in your Pod is that it scares away pesky salespeople.  The worst thing is that it also scares away your friends, family members and pets."/>
+		<luminae id="70" text="Luminae"/>
+		<luminae id="71" text="The Luminae's gentle glow simulates a Therma sunset on its lowest setting, and an intense Blasturn equinox on its highest setting."/>
+		<spherae id="72" text="Spherae"/>
+		<spherae id="73" text="Make your Pod sparkle with this adorably squat lamp. Please warn your visitors that it should NOT be used as a chair. Ouch!"/>
+		<lave id="74" text="Lavae"/>
+		<lave id="75" text="Filled with molten magma from the volcanic pools of Therma's Scalding Springs, this attractive lamp provides more entertainment than light."/>
+		<grapinae id="76" text="Grapinae"/>
+		<grapinae id="77" text="The three buds on the Grapinae stand mimic grapuses, the chubby little water-dwelling jellyfish that nibble your toes while you swim."/>
+		<quenchus id="78" text="Quenchus"/>
+		<quenchus id="79" text="Satisfy your need to burp with this dispenser of hydrated bubbles.  Mmm!  Brappalicious!"/>
+		<trashus id="80" text="Trashus"/>
+		<trashus id="81" text="Throw away something you still need, and the Trashus will spit it back out.  Hang on to something you don't need, and the Trashus will snatch it out of your hand and swallow it whole. How helpful!"/>
+		<tabilis id="82" text="Tabilis"/>
+		<tabilis id="83" text="Precise scientific measurements for this table were taken from Flateon-5, disc planet of the famous Rubeon solar system."/>
+		<fisharium id="84" text="Fisharium"/>
+		<fisharium id="85" text="This tiny tank is the recommended size for a captive fishus, a creature so hearty it expands to fill the size of its container.  The largest known fishus is still alive today, swimming around the former Megaball Astrostadium on Glopnup-Chibley."/>
+		<tubulae id="86" text="Tubulae"/>
+		<tubulae id="87" text="A unique fixture in any Pod, the Tubulae was invented as a luminous shower stall for Gruffeloneons, the incredibly filthy inhabitants of Gruffelon who must bathe in incredibly bright light to get themselves clean."/>
+		<poola id="88" text="Poola"/>
+		<poola id="89" text="The anti-gravity dome of this Poola table perfectly simulates the favourite game of the Cosmogiants, except that those massive creatures play Poola with actual planets."/>
+		<sokka id="90" text="Sokka"/>
+		<sokka id="91" text="At first glance, it might seem cruel to keep two teams of tiny kikkuses encased in glass like this, but as long as you feed them and exercise them in a Sokka match every day, they'll be perfectly happy!"/>
+		<hokka id="92" text="Hokka"/>
+		<hokka id="93" text="This tabletop simulation of the most popular sport in the Beta-Smashelon system will make YOU the most popular Pod owner on your planet!"/>
+		<strumophone id="94" text="Strumophone"/>
+		<strumophone id="95" text="Entertain your fellow Seedizens around your Pod on this beautiful musixx instrument hewn from Therman volcanic glass."/>
+		<blart_board id="96" text="Blart Board"/>
+		<blart_board id="97" text="Re-enact the suspenseful Blartian space race as you and a friend compete to land your ship closest to the centre of the Hooptilon system."/>
+		<swirlofa id="98" text="Swirlofa"/>
+		<swirlofa id="99" text="This classy roll-bottom seat keeps you comfortable while storing all of your important office supplies."/>
+		<trilux id="100" text="Trilux"/>
+		<trilux id="101" text="The next time you need to illuminate three things at the same time, reach for this unique triple-headed lamp.  Not to be confused with a triple-headed glormfus, which will most likely eat you before you can reach for it anyway."/>
+		<brick_and_span id="102" text="Brick And Span"/>
+		<brick_and_span id="103" text="This plastic brick-based cleaning product can be dismantled and rebuilt as a vacuum cleaner, a toilet scrubber, or even a toothbrush!  Pay close attention to that order."/>
+		<snappapop_machine id="104" text="Snappapop Machine"/>
+		<snappapop_machine id="105" text="This plastic brick-based cleaning product can be dismantled and rebuilt as a vacuum cleaner, a toilet scrubber, or even a toothbrush!  Pay close attention to that order."/>
+		<chug_a_lug id="106" text="Chug-a-Lug"/>
+		<chug_a_lug id="107" text="Offer your guests the comfort and convenience of the Chug-a-Lug.  This space saving square of bubbly carries GalaXseeds sponsored beverages including moo juice, mister ice tea, hoserccino, and so much more!  How many Lugs can you Chug?"/>
+		<stuck_in_neutral id="108" text="Stuck in Neutral"/>
+		<stuck_in_neutral id="109" text="Imported from the Hooptilon mall, Stuck in Neutral is the most technologically advanced ground bound spaceship in the universe!  Complete with manual doors, an itzy bitzy sized cockpit and a trapdoor that only opens half the time, you’ll be able to travel the skies and send unwanted Spaceticides into orbit.  Missiles and engine sold separately."/>
+		<burn_n_turn id="110" text="Burn N Turn"/>
+		<burn_n_turn id="111" text="The Burn N Turn brings the moves and grooves to you with its more than ample-amplifier that will turn the tables on any party you're hosting!  A simple flick of a switch allows you to starting mixing and fixing the type of sounds that will shake the ground.  Your guests will love you and your neighbours…well your guests will love you!"/>
+		<crestfallen id="112" text="Crestfallen"/>
+		<crestfallen id="113" text="The Burn N Turn brings the moves and grooves to you with its more than ample-amplifier that will turn the tables on any party you're hosting!  A simple flick of a switch allows you to starting mixing and fixing the type of sounds that will shake the ground.  Your guests will love you and your neighbours…well your guests will love you!"/>
+		<trap_snap id="114" text="Trap & Snap"/>
+		<trap_snap id="115" text="Incredibly easy to bait, set and release, the Trap & Snap ensures that any Spaceticide that is silly enough to visit your Pod is not getting out!  Spring loaded doors and handle doors protect you from any funny smells and the type of endless chitter chatter that Spaceticides have become famous for."/>				
+		<stand_on_guard id="116" text="Stand on Guard"/>
+		<stand_on_guard id="117" text="The GSF flag was designed solely by Lt. W. Heelbarrow and is based on a strong sense of GalaXseeds history.  The Tower of Oath is predominately displayed and serves as a reminder to always Stand on Guard especially in the presence of any weird looking cheeses and rainbows with the colour brown in them."/>				
+	</furniture>
+
+	<paint id="3">
+		<turquoise id="0" text="Turquoise"/>
+		<black id="1" text="black"/>
+		<pink id="2" text="Pink"/>
+		<orange id="3" text="Orange"/>
+		<brown id="4" text="Brown"/>
+		<blue id="5" text="Blue"/>
+	</paint>
+	
+	<mission id="4">
+		<money id="0" text="Botanickel"/>
+		<money id="1" text="You found this Botanickel in the reflecting pool on Subterra.  You've decided to take it to the Strata fountain so that a stranger's wish can come true."/>
+		<bottle id="2" text="Note"/>
+		<bottle id="3" text="You found this note in a bottle. It gives directions to buried treasure somewhere on Subterra:&lt;br&gt;Go to the place where the vines spill from walls, growing fat from the steady source of water nearby.&lt;br&gt;The tall, skinny snirkit tree casts its shadow across a solitary stone.&lt;br&gt;My secret lies buried beneath it."/>
+		<receipt id="4" text="Receipt"/>
+		<receipt id="5" text="You found this receipt in the trash outside the Therma Get-Ups shop. Leo Nimbus, the Get-Ups shop owner from Luma, was asking for it."/>
+		<papyuses id="6" text="Papyuses"/>
+		<papyuses id="7" text="This little guy wandered away from Lumazu when Ned Keepa wasn't looking.  You promised Ned you'd find him and bring him back."/>
+		<sunscreen id="8" text="Sunscreen"/>
+		<sunscreen id="9" text="This is Perbil Wibberbins's sunscreen.  He asked you to bring it to him at Strata Sands."/>
+		<flobberwurtzer id="10" text="Flobberwurtzer"/>
+		<flobberwurtzer id="11" text="These berries are supposed to cure severe sunburn.  They might help cure Perbil Wibberbins at Strata Sands."/>
+	</mission>
+
+	<buddy id="100">
+		<m01 id="0" text="Are you sure you want to remove ~0~ from your friends list?"/>	<!-- 0 is buddy name -->
+		<m03 id="1" text="~0~ is now your friend!"/>	<!-- 0 is buddy name -->
+	</buddy>
+	<capsule id="101">
+		<m01 id="0" text="The pod owner left the game! Please choose another capsule to visit."/>
+		<m02 id="1" text="Your host has decided to move his furniture. Please come back and visit again soon!"/>
+	</capsule>
+	<ignore id="102">
+		<m01 id="0" text="Are you sure you want to stop ignoring this seedizen and become friends?"/>
+		<m02 id="1" text="You are now ignoring ~0~."/>	<!-- 0 is ignore name -->
+	</ignore>
+	<minigame id="103">
+		<m01 id="0" text="Unexpected software error! Could not load mini game lobby. You will be taked back where you were. Sorry for the inconvenience."/>
+	</minigame>
+	<shop id="104">
+		<m01 id="0" text="Unexpected error: unable to retreive shop data!"/>
+	</shop>
+	<transact id="105">
+		<m01 id="0" text="Waiting for ~0~ to accept."/>	<!-- 0 is the name of the player you want to trade with -->
+		<m02 id="1" text="~0~ wants to trade with you. Do you accept?"/> 	<!-- 0 is the name of the player that want to trade with you -->
+		<m03 id="2" text="A server error has occured, transaction aborted!"/>
+		<m04 id="3" text="~0~ doesn't want to trade with you right now."/>	<!-- 0 is the name of the player you want to trade with -->
+		<m05 id="4" text="~0~ is too busy to trade with you right now."/>	<!-- 0 is the name of the player you want to trade with -->
+	</transact>
+	<book id="106">
+    	<book1 id="0" text="How to Juice a Moobus"/>
+    	<book1 id="1" text="Exerpted from A Space Farmer's Almanac, HX98-0071&lt;br&gt;&lt;br&gt;Thanks to advances in agriculture which predate the Slorpian Wars of the second eclipse, lifeforms across the universe can wake up in the morning and enjoy a tasty, spicy glass of mulk.  But where does this farm-fresh drink come from? From the moobus, of course! The question is often asked: how on Hooptilon Farfic does anyone get close enough to a Moobus to juice it?  The answer seems natural to any farm-raised child or biomechanically-enhanced pit fighter, but here we will endeavour to explain."/>
+        <book1 id="2" text="The key to extracting a moobus's annual three-drop output of mulk is grabbing on tightly to one of its seventeen antennae and not letting go. Many a Milkulon farmhand, after deftly avoiding the moobus's mind-altering hypnotic shriek, has fallen prey to one of the false antennae sprouting from behind the animal's talon-like hooves.  The moobus uses these decoy appendages to wrap its prey in a suffocating grasp, so look out! Once you have vaulted the four sets of serrated pincers and reflected the creature's petrifying gaze with a hand mirror, you'll find yourself free to frantically twist the antennae until the precious mulk collects behind one of the Moobus's snouts.  From there, it's just a quick detoxification process to render the poisoned mulk into the spicy-fresh drink that you enjoy today!"/>
+		<book2 id="3" text="Lummy at the Bat"/>
+        <book2 id="4" text="Before the crowd, in limelight thick stood Lummy Slammaball&lt;br&gt;Glopnup-Chibley's only hope to hit one past the wall&lt;br&gt;Wielding two huge clubs aloft, his visor pulled down low&lt;br&gt;Lummy's skill at Megaball was stellar, don't you know&lt;br&gt;&lt;br&gt;But he stood blithely by that day while all the balls whizzed past&lt;br&gt;The crowd sat breathless wondering when he'd swing at one at last&lt;br&gt;He didn't swing, not even once, but rather gave a shout&lt;br&gt;There is no joy in Glubnup-Chibley - mighty Lummy was unexpectedly eaten by a gurrybeastus who wandered onto the field when no one was looking."/>
+		<book3 id="5" text="Portable Stain Remover&lt;br&gt;Patent #70410-00560-01"/>
+        <book3 id="6" text="Description: A cylindrical shaft with a button on the side.  When the button is pushed, the device emits a beam of light.  The button can be pushed again to switch off the beam.&lt;br&gt;&lt;br&gt;Market potential: Intended for use mainly by Gruffeloneons&lt;br&gt;&lt;br&gt;Usage:  Filthy Gruffeloneons can use the Portable Stain Remover to blast away nasty dust stains while they are travelling, or while they are otherwise unable to use a Tubulae."/>
+		<book4 id="7" text="Top Musixx in Da Galaxy"/>
+        <book4 id="8" text="Numbah 97&lt;br&gt;He Ain't Heavy, He's Delicious&lt;br&gt;by Squigglin' Spra-qak&lt;br&gt;&lt;br&gt;Numbah 72&lt;br&gt;Teleplant One On Me&lt;br&gt;by Wiks n' Braahg&lt;br&gt;&lt;br&gt;Numbah 833&lt;br&gt;I Left My Heart in Hooptilon Farfic&lt;br&gt;by Burf the Second&lt;br&gt;&lt;br&gt;Numbah 12&lt;br&gt;You've Got a Fenner&lt;br&gt;by the Snarpidge Family"/>
+		<book4 id="9" text="Numbah 5&lt;br&gt;Blamp it Like It's Hot&lt;br&gt;by Glordip&lt;br&gt;&lt;br&gt;Numbah 2&lt;br&gt;Somewhere Over the Sloople&lt;br&gt;by Ulgbond Blaggabratt&lt;br&gt;&lt;br&gt;Numbah 7654&lt;br&gt;Glorb, Glorb, Glorb Your Flort (Blooply Down the Tooble)&lt;br&gt;by Yarb Spartsins and his All-Flarnt Band"/>
+    </book>
+
+</lang>

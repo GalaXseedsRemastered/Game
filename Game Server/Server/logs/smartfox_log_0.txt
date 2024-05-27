@@ -1,0 +1,11 @@
+2024/05/27 00:36:10.647 - [ INFO ] [id: 10] (SmartFoxServer.bootH2Engine): Starting h2 engine...
+2024/05/27 00:36:11.235 - [ INFO ] [id: 10] (ExtensionHandler.createExtension): Zone Extension [ slogin ] created, for zone:slogin
+2024/05/27 00:36:11.273 - [ INFO ] [id: 10] (ExtensionHandler.createExtension): Zone Extension [ SFSService ] created, for zone:slogin
+2024/05/27 00:36:11.310 - [ INFO ] [id: 10] (ExtensionHandler.createExtension): Zone Extension [ SecureService ] created, for zone:slogin
+2024/05/27 00:36:11.320 - [ INFO ] [id: 10] (SmartFoxServer.setupTaskScheduler): [TaskScheduler] ... started ::
+2024/05/27 00:36:11.321 - [ INFO ] [id: 10] (SmartFoxServer.run): [BlueBoxHandler]... started :: 
+2024/05/27 00:36:11.321 - [ INFO ] [id: 10] (SmartFoxServer.run): [EventWriter] ..... started :: 1 thread(s)
+2024/05/27 00:36:11.322 - [ INFO ] [id: 10] (SmartFoxServer.run): [SystemHandler] ... started :: 1 thread(s)
+2024/05/27 00:36:11.323 - [ INFO ] [id: 10] (SmartFoxServer.run): [ExtensionHandler]. started :: 1 thread(s)
+2024/05/27 00:36:11.323 - [ INFO ] [id: 10] (SmartFoxServer.run): [DeadChannelsPolicy: strict]
+2024/05/27 00:36:11.323 - [ INFO ] [id: 10] (SmartFoxServer.run): Server is up and running!

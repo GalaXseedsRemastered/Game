@@ -1,0 +1,284 @@
+a {color: #377f89;font-weight:normal;}	
+a:hover {color: #359fae;font-weight:normal;}	
+
+
+#bodyWrapper {
+	background: url("/common/img/bg_homecenter.gif") 227px 250px repeat-y;
+	}	
+	
+/*----------- Home Page Specific Section Divs -----------*/
+
+
+
+#HomeLeft {
+	width: 227px;
+	height: auto; /* change to auto*/
+	border: 0px solid white;
+	background: url("/common/img/bgUsers2.gif");
+	margin: 0px;padding: 0px;
+	}
+
+#HomeCenter {
+	width: 364px;
+	height: auto; /* change to auto*/
+	float: left;
+	border: 0px solid white;
+	background: url("/common/img/bg_homecenter.gif");
+	margin: 0px;
+	padding: 0px;
+	}
+
+#HomeRight {
+	width: 228px; /* confirmed width */
+	height: auto; /* change to auto*/
+	background: url("/common/img/bg_homerigh.gif");
+	border: 0px solid pink;
+	margin: 0px;
+	padding: 0px;
+	}	
+	
+	
+
+
+
+/*----------- Content Home Left -----------*/
+
+#Intro {
+	width: 227px;
+	height: auto;
+	float: left; 
+	border: 0px solid white;
+	background: url("/common/img/headertop2.gif") top left no-repeat;
+	margin: 0px;padding: 0px;
+	}
+	
+#Intro H1 {
+	font-size: 0.9em;
+	color: #FFF;
+	padding: 0px 0px 0px 14px;
+	margin: 0px;	
+	}	
+	
+#Intro p {
+	font-size: 0.75em;
+	color: #FFF;
+	padding: 3px 5px 3px 14px;
+	margin: 0px;	
+	}		
+	
+#Intro a {color: #FFF;font-weight:normal;}	
+#Intro a:hover {color: #d8f900;font-weight:normal;}	
+
+
+#Feature {
+	width: 227px;
+	height: auto;
+	border: 0px solid white;
+	margin: 0px;padding: 0px;
+	}
+	
+#FeatureContent {
+	width: 227px;
+	height: auto;
+	float: left; 
+	border: 0px solid white;
+	background: url("/common/img/bgFeature2.gif") top left repeat;
+	margin: 0px;padding: 0px;
+	padding-top:8px;
+	}	
+	
+#Feature H1 {
+	font-size: 0.9em;
+	color: #609;
+	padding: 0px 0px 0px 12px;
+	margin: 0px;	
+	}	
+	
+#Feature p {
+	font-size: 0.75em;
+	color: #000;
+	padding: 3px 5px 3px 13px;
+	margin: 0px;	
+	}		
+	
+#Feature a {color: #609;font-weight:bold;}	
+#Feature a:hover {color: #000;font-weight:bold;}	
+
+
+
+
+#BigRip {
+	background: url(/common/img/bgColumnLeft2.gif) top right no-repeat;
+	width: 227px;
+	height: 249px;
+	}
+	
+#BigRip H1 {
+	font-size: 0.9em;
+	color: #FFF;
+	padding: 0px 0px 0px 17px;
+	margin: 0px;	
+	}	
+	
+#BigRip p {
+	font-size: 0.75em;
+	color: #FFF;
+	padding: 3px 5px 3px 17px;
+	margin: 0px;	
+	}		
+	
+#BigRip a {color: #FFF;font-weight:bold;}	
+#BigRip a:hover {color: #d8f900;font-weight:bold;}	
+
+
+
+#webcode {
+	width:190px;
+	margin-left:15px;
+	border:0px red solid;
+	}	
+
+#webcode H1 {
+	margin-left:-14px;
+	margin-bottom:-10px;
+	}	
+
+
+
+
+/*----------- Content Home Center -----------*/
+
+#CenterFooter {
+	position: absolute;
+	bottom: 70px;
+	z-index: 2;
+	background: url(/common/img/bgColumnCenter.gif) top left no-repeat;
+	width: 390px; 
+	height: 39px;
+	left: 217px;
+	}
+
+#FrameBottom {
+	position: absolute;
+	z-index: 1;
+	top: 265px;
+	float: left;
+	left: 213px; 
+	/*padding-top:13px;---add this for a flash promotable*/
+	}
+
+#News {
+	width: auto;
+	height: auto;
+	float: left; 
+	border: 0px solid green;
+	margin: 0px;padding: 0px;
+	margin-top: 55px;
+	}
+	
+#News H1 {
+	font-size: 1.2em;
+	color: #377f89;
+	padding: 0px 0px 0px 17px;
+	line-height: 0.8em;
+	margin: 0px;	
+	}	
+	
+#News H2 {
+	font-size: 0.8em;
+	color: #999;
+	padding: 4px 0px 0px 18px;
+	margin: 0px;	
+	}		
+	
+#News p {
+	font-size: 0.75em;
+	color: #000;
+	padding: 4px 15px 3px 17px;
+	margin: 0px;	
+	}		
+	
+#News a {color: #000;font-weight:normal;}	
+#News a:hover {color: #359fae;font-weight:normal;}	
+
+
+
+
+/*----------- Content Home Right -----------*/
+
+
+
+#PlaySafe {
+	width: 228px; 
+	background: url(/common/img/bgPlaySafeMid.gif) top left repeat-y;
+	}
+
+#Screens {
+	width: 220px;
+	height: auto;
+	float: left; 
+	border: 0px solid white;
+	padding-bottom: 10px;
+	padding-right:3px!important;padding-right:0px; 
+	margin: 0px;
+	background-color: #171835;
+	}
+	
+#Screens H1 {
+	font-size: 0.9em;
+	color: #FFF;
+	padding: 0px 0px 0px 10px;
+	margin: 0px;	
+	}	
+	
+#Screens p {
+	font-size: 0.75em;
+	color: #FFF;
+	padding: 3px 7px 3px 10px;
+	margin: 0px;	
+	}		
+	
+.img {
+	margin: 3px 0px 3px 10px;	
+	border: 5px solid #395580;
+	}		
+	
+#Screens a {color: #FFF;font-weight:bold;}	
+#Screens a:hover {color: #d8f900;font-weight:bold;}	
+
+
+
+
+
+#Clans {
+	width: 228px;
+	height: auto;
+	float: left; 
+	background: url("/common/img/bgClans.gif") top left repeat;
+	border: 0px solid white;
+	margin: 0px;padding: 0px;
+	}
+	
+#Clans H1 {
+	font-size: 0.9em;
+	color: #FFF;
+	padding: 0px 0px 0px 10px;
+	margin: 0px;	
+	}	
+	
+#Clans p {
+	font-size: 0.75em;
+	color: #FFF;
+	padding: 3px 7px 3px 10px;
+	margin: 0px;	
+	}		
+	
+#Clans a {color: #FFF;font-weight:bold;}	
+#Clans a:hover {color: #d8f900;font-weight:bold;}	
+
+
+
+
+
+
+

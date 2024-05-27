@@ -1,0 +1,159 @@
+<item>
+
+	<gizmo type_id="5">
+		<plant_stretcher id="41" type_id="5" lang_id="0" path="gizmo1.swf" name_id="0" desc_id="1" level="2"/>
+		<glass_cloche id="42" type_id="5" lang_id="0" path="gizmo2.swf" name_id="2" desc_id="3" level="15"/>
+		<stem_coloreon id="43" type_id="5" lang_id="0" path="gizmo3.swf" name_id="4" desc_id="5" level="1"/>
+		<leaf_coloreon id="44" type_id="5" lang_id="0" path="gizmo4.swf" name_id="6" desc_id="7" level="5"/>
+		<flower_coloreon id="45" type_id="5" lang_id="0" path="gizmo5.swf" name_id="8" desc_id="9" level="10"/>
+		<clay_spout id="46" type_id="5" lang_id="0" path="gizmo6.swf" name_id="10" desc_id="11" level="2"/>
+		<power_shower id="47" type_id="5" lang_id="0" path="gizmo7.swf" name_id="12" desc_id="13" level="3"/>
+		<thunder_scissors id="48" type_id="5" lang_id="0" path="gizmo8.swf" name_id="14" desc_id="15" level="4"/>
+		<twin_pruner id="49" type_id="5" lang_id="0" path="gizmo9.swf" name_id="16" desc_id="17" level="5"/>
+		<flegelepruner id="50" type_id="5" lang_id="0" path="gizmo10.swf" name_id="18" desc_id="19" level="1"/>
+		<craggy_shears id="51" type_id="5" lang_id="0" path="gizmo11.swf" name_id="20" desc_id="21" level="2"/>
+		<pumptiller id="52" type_id="5" lang_id="0" path="gizmo12.swf" name_id="22" desc_id="23" level="3"/>
+		<magnimus id="53" type_id="5" lang_id="0" path="gizmo13.swf" name_id="24" desc_id="25" level="4"/>
+		<furrus id="54" type_id="5" lang_id="0" path="gizmo14.swf" name_id="26" desc_id="27" level="5"/>
+		<stem_comb id="55" type_id="5" lang_id="0" path="gizmo15.swf" name_id="28" desc_id="29" level="1"/>
+		<bone_scythe id="56" type_id="5" lang_id="0" path="gizmo16.swf" name_id="30" desc_id="31" level="10"/>
+		<flaskeon id="57" type_id="5" lang_id="0" path="gizmo17.swf" name_id="32" desc_id="33" level="3"/>
+		<plain_ferty id="58" type_id="5" lang_id="0" path="gizmo18.swf" name_id="34" desc_id="35" level="4"/>
+		<mite_mister id="59" type_id="5" lang_id="0" path="gizmo19.swf" name_id="36" desc_id="37" level="5"/>
+		<slimus id="60" type_id="5" lang_id="0" path="gizmo20.swf" name_id="38" desc_id="39" level="1"/>
+		<stem_coloreon id="78" type_id="5" lang_id="0" path="gizmo3.swf" name_id="4" desc_id="5" level="1"/>
+		<leaf_coloreon id="79" type_id="5" lang_id="0" path="gizmo4.swf" name_id="6" desc_id="7" level="5"/>
+		<flower_coloreon id="80" type_id="5" lang_id="0" path="gizmo5.swf" name_id="8" desc_id="9" level="10"/>
+		<stem_coloreon id="81" type_id="5" lang_id="0" path="gizmo3.swf" name_id="4" desc_id="5" level="1"/>
+		<leaf_coloreon id="82" type_id="5" lang_id="0" path="gizmo4.swf" name_id="6" desc_id="7" level="5"/>
+		<flower_coloreon id="83" type_id="5" lang_id="0" path="gizmo5.swf" name_id="8" desc_id="9" level="10"/>
+		<stem_coloreon id="84" type_id="5" lang_id="0" path="gizmo3.swf" name_id="4" desc_id="5" level="1"/>
+		<leaf_coloreon id="85" type_id="5" lang_id="0" path="gizmo4.swf" name_id="6" desc_id="7" level="5"/>
+		<flower_coloreon id="86" type_id="5" lang_id="0" path="gizmo5.swf" name_id="8" desc_id="9" level="10"/>
+	</gizmo>
+
+	<wearable type_id="4">
+		<the_grand_slam id="21" type_id="4" lang_id="1" path="getup1.swf" name_id="0" desc_id="1" level="1" target="1" avatar_id="1"/>
+		<the_graduate id="22" type_id="4" lang_id="1" path="getup2.swf" name_id="2" desc_id="3" level="15" target="1" avatar_id="2"/>
+		<the_saturday_night id="23" type_id="4" lang_id="1" path="getup3.swf" name_id="4" desc_id="5" level="1" target="1" avatar_id="3"/>
+		<the_propeller id="24" type_id="4" lang_id="1" path="getup4.swf" name_id="6" desc_id="7" level="2" target="1" avatar_id="4"/>
+		<el_hatto_grande id="25" type_id="4" lang_id="1" path="getup5.swf" name_id="8" desc_id="9" level="3" target="1" avatar_id="5"/>
+		<the_bovine_beret id="26" type_id="4" lang_id="1" path="getup6.swf" name_id="10" desc_id="11" level="4" target="1" avatar_id="6"/>
+		<the_berriet id="27" type_id="4" lang_id="1" path="getup7.swf" name_id="12" desc_id="13" level="5" target="1" avatar_id="7"/>
+		<the_kat_kap id="28" type_id="4" lang_id="1" path="getup8.swf" name_id="14" desc_id="15" level="1" target="1" avatar_id="8"/>
+		<the_hare_style id="29" type_id="4" lang_id="1" path="getup9.swf" name_id="16" desc_id="17" level="2" target="1" avatar_id="9"/>
+		<the_windsor id="30" type_id="4" lang_id="1" path="getup10.swf" name_id="18" desc_id="19" level="2" target="2" avatar_id="1"/>
+		<the_mammoth id="31" type_id="4" lang_id="1" path="getup11.swf" name_id="20" desc_id="21" level="3" target="1" avatar_id="11"/>
+		<the_ruler id="32" type_id="4" lang_id="1" path="getup12.swf" name_id="22" desc_id="23" level="4" target="1" avatar_id="12"/>
+		<the_magistic id="33" type_id="4" lang_id="1" path="getup13.swf" name_id="24" desc_id="25" level="5" target="1" avatar_id="13"/>
+		<the_enchanter id="34" type_id="4" lang_id="1" path="getup14.swf" name_id="26" desc_id="27" level="1" target="1" avatar_id="14"/>
+		<the_day_trader id="35" type_id="4" lang_id="1" path="getup15.swf" name_id="28" desc_id="29" level="2" target="1" avatar_id="15"/>
+		<the_pylonius id="36" type_id="4" lang_id="1" path="getup16.swf" name_id="30" desc_id="31" level="3" target="1" avatar_id="16"/>
+		<the_butterfly id="37" type_id="4" lang_id="1" path="getup17.swf" name_id="32" desc_id="33" level="4" target="2" avatar_id="2"/>
+		<the_gorgoth id="38" type_id="4" lang_id="1" path="getup18.swf" name_id="34" desc_id="35" level="4" target="1" avatar_id="18"/>
+		<the_jester id="39" type_id="4" lang_id="1" path="getup19.swf" name_id="36" desc_id="37" level="5" target="1" avatar_id="19"/>
+		<the_hoser id="40" type_id="4" lang_id="1" path="getup20.swf" name_id="38" desc_id="39" level="1" target="1" avatar_id="20"/>
+		<the_pillbee id="108" type_id="4" lang_id="1" path="getup21.swf" name_id="40" desc_id="41" level="1" target="1" avatar_id="21"/>
+		<the_flycatcher id="109" type_id="4" lang_id="1" path="getup22.swf" name_id="42" desc_id="43" level="1" target="1" avatar_id="22"/>
+		<the_b_house id="110" type_id="4" lang_id="1" path="getup23.swf" name_id="44" desc_id="45" level="1" target="1" avatar_id="23"/>
+		<the_hun_zinger id="111" type_id="4" lang_id="1" path="getup24.swf" name_id="46" desc_id="47" level="1" target="1" avatar_id="24"/>
+		<the_rustler id="112" type_id="4" lang_id="1" path="getup25.swf" name_id="48" desc_id="49" level="1" target="1" avatar_id="25"/>
+		<the_queen_b id="113" type_id="4" lang_id="1" path="getup26.swf" name_id="50" desc_id="51" level="1" target="1" avatar_id="26"/>
+		<the_derbeam id="114" type_id="4" lang_id="1" path="getup27.swf" name_id="52" desc_id="53" level="1" target="1" avatar_id="27"/>
+		<the_hair_asite id="115" type_id="4" lang_id="1" path="getup28.swf" name_id="54" desc_id="55" level="1" target="1" avatar_id="28"/>
+		<the_teepee id="117" type_id="4" lang_id="1" path="getup29.swf" name_id="56" desc_id="57" level="1" target="2" avatar_id="4"/>
+		<the_castle id="125" type_id="4" lang_id="1" path="getup30.swf" name_id="58" desc_id="59" level="1" target="1" avatar_id="29"/>
+		<ship_lego id="126" type_id="4" lang_id="1" path="getup31.swf" name_id="60" desc_id="61" level="1" target="1" avatar_id="30"/>
+		<the_arrrrgh id="131" type_id="4" lang_id="1" path="getup32.swf" name_id="62" desc_id="63" level="10" target="1" avatar_id="31"/>
+		<the_squortus id="132" type_id="4" lang_id="1" path="getup33.swf" name_id="64" desc_id="65" level="5" target="1" avatar_id="32"/>
+		<the_brainstorm id="133" type_id="4" lang_id="1" path="getup34.swf" name_id="66" desc_id="67" level="15" target="1" avatar_id="33"/>
+		<the_claw id="134" type_id="4" lang_id="1" path="getup35.swf" name_id="68" desc_id="69" level="1" target="1" avatar_id="34"/>
+		<peace_and_love id="139" type_id="4" lang_id="1" path="getup36.swf" name_id="70" desc_id="71" level="1" target="2" avatar_id="5"/>
+		<metalbulism id="148" type_id="4" lang_id="1" path="getup37.swf" name_id="72" desc_id="73" level="10" target="1" avatar_id="35"/>
+		<odium id="149" type_id="4" lang_id="1" path="getup38.swf" name_id="74" desc_id="75" level="15" target="1" avatar_id="36"/>
+		<foam_dome id="150" type_id="4" lang_id="1" path="getup39.swf" name_id="76" desc_id="77" level="1" target="1" avatar_id="37"/>
+		<dagegen id="151" type_id="4" lang_id="1" path="getup40.swf" name_id="78" desc_id="79" level="5" target="1" avatar_id="38"/>
+		<the_ouch id="154" type_id="4" lang_id="1" path="getup41.swf" name_id="80" desc_id="81" level="1" target="1" avatar_id="39"/>
+	</wearable>
+
+	<furniture type_id="3">
+		<hottus id="1" type_id="3" lang_id="2" path="gear1.swf" name_id="0" desc_id="1" level="3"/>
+		<angofa id="2" type_id="3" lang_id="2" path="gear2.swf" name_id="2" desc_id="3" level="3"/>
+		<rotofa id="3" type_id="3" lang_id="2" path="gear3.swf" name_id="4" desc_id="5" level="5"/>
+		<tunofa id="4" type_id="3" lang_id="2" path="gear4.swf" name_id="6" desc_id="7" level="5"/>
+		<slepofa id="5" type_id="3" lang_id="2" path="gear5.swf" name_id="8" desc_id="9" level="20"/>
+		<mirod id="6" type_id="3" lang_id="2" path="gear6.swf" name_id="10" desc_id="11" level="15"/>
+		<libria id="7" type_id="3" lang_id="2" path="gear7.swf" name_id="12" desc_id="13" level="15"/>
+		<trimod id="8" type_id="3" lang_id="2" path="gear8.swf" name_id="14" desc_id="15" level="5"/>
+		<washus id="9" type_id="3" lang_id="2" path="gear9.swf" name_id="16" desc_id="17" level="1"/>
+		<coolus id="10" type_id="3" lang_id="2" path="gear10.swf" name_id="18" desc_id="19" level="5"/>
+		<melofa id="11" type_id="3" lang_id="2" path="gear11.swf" name_id="20" desc_id="21" level="10"/>
+		<lazofa id="12" type_id="3" lang_id="2" path="gear12.swf" name_id="22" desc_id="23" level="10"/>
+		<noisus id="13" type_id="3" lang_id="2" path="gear13.swf" name_id="24" desc_id="25" level="5"/>
+		<layofa id="14" type_id="3" lang_id="2" path="gear14.swf" name_id="26" desc_id="27" level="20"/>
+		<waykus id="15" type_id="3" lang_id="2" path="gear15.swf" name_id="28" desc_id="29" level="1"/>
+		<termina id="16" type_id="3" lang_id="2" path="gear16.swf" name_id="30" desc_id="31" level="20"/>
+		<visiona id="17" type_id="3" lang_id="2" path="gear17.swf" name_id="32" desc_id="33" level="15"/>
+		<tubos id="18" type_id="3" lang_id="2" path="gear18.swf" name_id="34" desc_id="35" level="10"/>
+		<pianorga id="19" type_id="3" lang_id="2" path="gear19.swf" name_id="36" desc_id="37" level="20"/>
+		<fruitabilis id="20" type_id="3" lang_id="2" path="gear20.swf" name_id="38" desc_id="39" level="15"/>
+		<spittus id="87" type_id="3" lang_id="2" path="gear21.swf" name_id="40" desc_id="41" level="1"/>
+		<luminettae id="88" type_id="3" lang_id="2" path="gear22.swf" name_id="42" desc_id="43" level="1"/>
+		<pofa id="91" type_id="3" lang_id="2" path="gear23.swf" name_id="44" desc_id="45" level="1"/>
+		<porados id="92" type_id="3" lang_id="2" path="gear24.swf" name_id="46" desc_id="47" level="15"/>
+		<buzzumarium id="93" type_id="3" lang_id="2" path="gear25.swf" name_id="48" desc_id="49" level="1"/>
+		<stickytappus id="94" type_id="3" lang_id="2" path="gear26.swf" name_id="50" desc_id="51" level="1"/>
+		<hexoma id="95" type_id="3" lang_id="2" path="gear27.swf" name_id="52" desc_id="53" level="1"/>
+		<beematorium id="96" type_id="3" lang_id="2" path="gear28.swf" name_id="54" desc_id="55" level="1"/>
+		<hive_d_or id="97" type_id="3" lang_id="2" path="gear29.swf" name_id="56" desc_id="57" level="1"/>
+		<hiveaway id="98" type_id="3" lang_id="2" path="gear30.swf" name_id="58" desc_id="59" level="1"/>
+		<buzzongos id="99" type_id="3" lang_id="2" path="gear31.swf" name_id="60" desc_id="61" level="1"/>
+		<3_minutes_of_destruction id="100" type_id="3" lang_id="2" path="gear32.swf" name_id="62" desc_id="63" level="1"/>
+		<raw_goowage id="101" type_id="3" lang_id="2" path="gear33.swf" name_id="64" desc_id="65" level="1"/>
+		<stinktank id="102" type_id="3" lang_id="2" path="gear34.swf" name_id="66" desc_id="67" level="1"/>
+		<doom_kaboom id="103" type_id="3" lang_id="2" path="gear35.swf" name_id="68" desc_id="69" level="1"/>
+		<luminae id="104" type_id="3" lang_id="2" path="gear36.swf" name_id="70" desc_id="71" level="1"/>
+		<spherae id="105" type_id="3" lang_id="2" path="gear37.swf" name_id="72" desc_id="73" level="1"/>
+		<lave id="106" type_id="3" lang_id="2" path="gear38.swf" name_id="74" desc_id="75" level="1"/>
+		<grapinae id="107" type_id="3" lang_id="2" path="gear39.swf" name_id="76" desc_id="77" level="1"/>
+		<quenchus id="116" type_id="3" lang_id="2" path="gear40.swf" name_id="78" desc_id="79" level="15"/>
+		<trashus id="118" type_id="3" lang_id="2" path="gear41.swf" name_id="80" desc_id="81" level="1"/>
+		<tabilis id="119" type_id="3" lang_id="2" path="gear42.swf" name_id="82" desc_id="83" level="5"/>
+		<fisharium id="120" type_id="3" lang_id="2" path="gear43.swf" name_id="84" desc_id="85" level="10"/>
+		<tubulae id="121" type_id="3" lang_id="2" path="gear44.swf" name_id="86" desc_id="87" level="10"/>
+		<poola id="122" type_id="3" lang_id="2" path="gear45.swf" name_id="88" desc_id="89" level="15"/>
+		<sokka id="123" type_id="3" lang_id="2" path="gear46.swf" name_id="90" desc_id="91" level="20"/>
+		<hokka id="124" type_id="3" lang_id="2" path="gear47.swf" name_id="92" desc_id="93" level="20"/>
+		<strumophone id="127" type_id="3" lang_id="2" path="gear48.swf" name_id="94" desc_id="95" level="10"/>
+		<blart_board id="128" type_id="3" lang_id="2" path="gear49.swf" name_id="96" desc_id="97" level="5"/>
+		<swirlofa id="129" type_id="3" lang_id="2" path="gear50.swf" name_id="98" desc_id="99" level="15"/>
+		<trilux id="130" type_id="3" lang_id="2" path="gear51.swf" name_id="100" desc_id="101" level="1"/>
+		<brick_and_span id="140" type_id="3" lang_id="2" path="gear52.swf" name_id="102" desc_id="103" level="1"/>
+		<snappapop_machine id="143" type_id="3" lang_id="2" path="gear53.swf" name_id="104" desc_id="105" level="5"/>
+		<chug_a_lug id="144" type_id="3" lang_id="2" path="gear54.swf" name_id="106" desc_id="107" level="5"/>
+		<stuck_in_neutral id="145" type_id="3" lang_id="2" path="gear55.swf" name_id="108" desc_id="109" level="10"/>
+		<burn_n_turn id="146" type_id="3" lang_id="2" path="gear56.swf" name_id="110" desc_id="111" level="15"/>
+		<crestfallen id="147" type_id="3" lang_id="2" path="gear57.swf" name_id="112" desc_id="113" level="20"/>	
+		<trap_snap id="152" type_id="3" lang_id="2" path="gear58.swf" name_id="114" desc_id="115" level="15"/>	
+		<stand_on_guard id="153" type_id="3" lang_id="2" path="gear59.swf" name_id="116" desc_id="117" level="1"/>	
+	</furniture>
+
+	<paint type_id="6">
+		<turquoise id="70" type_id="6" lang_id="3" path="paintbucket.swf" name_id="0" level="1" price="275" color="0,245,255"/>
+		<black id="72" type_id="6" lang_id="3" path="paintbucket.swf" name_id="1" level="1" price="1000" color="0,0,0"/>
+		<pink id="73" type_id="6" lang_id="3" path="paintbucket.swf" name_id="2" level="1" price="320" color="255,153,204"/>
+		<orange id="76" type_id="6" lang_id="3" path="paintbucket.swf" name_id="3" level="1" price="180" color="255,102,0"/>
+		<purple id="77" type_id="6" lang_id="3" path="paintbucket.swf" name_id="4" level="1" price="150" color="168,0,255"/>
+		<blue id="89" type_id="6" lang_id="3" path="paintbucket.swf" name_id="5" level="1" price="300" color="0,128,255"/>
+	</paint>
+	
+	<mission type_id="7">
+		<money id="135" type_id="7" lang_id="4" path="mission1.swf" name_id="0" desc_id="1" level="1"/>
+		<bottle id="136" type_id="7" lang_id="4" path="mission2.swf" name_id="2" desc_id="3" level="1"/>
+		<receipt id="137" type_id="7" lang_id="4" path="mission0.swf" name_id="4" desc_id="5" level="1"/>
+		<papyuses id="138" type_id="7" lang_id="4" path="mission3.swf" name_id="6" desc_id="7" level="1"/>
+		<sunscreen id="141" type_id="7" lang_id="4" path="mission4.swf" name_id="8" desc_id="9" level="1"/>
+		<flobberwurtzer id="142" type_id="7" lang_id="4" path="mission5.swf" name_id="10" desc_id="11" level="1"/>
+	</mission>
+
+</item>

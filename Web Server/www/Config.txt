@@ -1,0 +1,187 @@
+<config>
+	<asp>
+		<t id="0" path="script.php" service="ZoneListScript">h</t>
+		<t id="1" path="script.php" service="ParseDataBinding">h</t>
+		<t id="2" path="script.php" service="GetAllBuddyScript">h</t>
+		<t id="3" path="script.php" service="GetBuddyScript">h</t>
+		<t id="4" path="script.php" service="AddBuddyScript">h</t>
+		<t id="5" path="script.php" service="RemoveBuddyScript">h</t>
+		<t id="6" path="script.php" service="service6">h</t>
+		<t id="7" path="script.php" service="oAddPlant">h</t>
+		<t id="8" path="script.php" service="oGetPlant">h</t>
+		<t id="9" path="script.php" service="oGetUserPlants">h</t>
+		<t id="10" path="script.php" service="service10">h</t>
+		<t id="11" path="script.php" service="service11">h</t>
+		<t id="12" path="script.php" service="service12">h</t>
+		<t id="13" path="script.php" service="service13">h</t>
+		<t id="14" path="script.php" service="service14">h</t>
+		<t id="15" path="script.php" service="service15">h</t>
+		<t id="16" path="script.php" service="service16">h</t>
+		<t id="17" path="script.php" service="UpdateItemScript">h</t>
+		<t id="18" path="script.php" service="UpdateLookScript">h</t>
+		<t id="19" path="script.php" service="service19">h</t>
+		<t id="20" path="script.php" service="service20">h</t>
+		<t id="21" path="script.php" service="service21">h</t>
+		<t id="22" path="script.php" service="service22">h</t>
+		<t id="23" path="script.php" service="service23">h</t>
+		<t id="24" path="script.php" service="service24">h</t>
+		<t id="25" path="script.php" service="service25">h</t>
+		<t id="26" path="script.php" service="service26">h</t>
+		<t id="27" path="script.php" service="service27">h</t>
+		<t id="28" path="script.php" service="oGetPlantPrice">h</t>
+		<t id="29" path="script.php" service="service29">h</t>
+		<t id="30" path="script.php" service="service30">h</t>
+		<t id="31" path="script.php" service="service31">h</t>
+		<t id="32" path="script.php" service="service32">h</t>
+		<t id="33" path="script.php" service="service33">h</t>
+		<t id="34" path="script.php" service="AddBotanickelScript">h</t>
+		<t id="35" path="script.php" service="AddXPScript">h</t>
+		<t id="36" path="script.php" service="service36">h</t>
+		<t id="37" path="script.php" service="service37">h</t>
+		<t id="38" path="script.php" service="service38">h</t>
+		<t id="39" path="script.php" service="PurchaseItemScript">h</t>
+		<t id="40" path="script.php" service="service40">h</t>
+		<t id="41" path="script.php" service="service41">h</t>
+		<t id="42" path="script.php" service="LogScript">ha</t>
+		<t id="43" path="script.php" service="service43">h</t>
+		<t id="44" path="script.php" service="service44">h</t>
+		<t id="45" path="script.php" service="oUpdatePlant">h</t>
+		<t id="46" path="script.php" service="SellItemScript">h</t>
+		<t id="47" path="script.php" service="service47">h</t>
+		<t id="48" path="script.php" service="UserInfoScript">h</t>
+		<t id="49" path="script.php" service="service49">h</t>
+		<t id="50" path="script.php" service="service50">h</t>
+		<t id="51" path="script.php" service="service51">h</t>
+		<t id="52" path="script.php" service="oDeleteItem">h</t>
+		<t id="53" path="script.php" service="service53">h</t>
+		<t id="54" path="script.php" service="service54">h</t>
+		<t id="55" path="script.php" service="service55">h</t>
+		<t id="56" path="script.php" service="oUpdatePlantPosition">h</t>
+		<t id="57" path="script.php" service="service57">h</t>
+		<t id="58" path="script.php" service="service58">h</t>
+		<t id="59" path="script.php" service="service59">h</t>
+		<t id="60" path="script.php" service="service60">h</t>
+		<t id="61" path="script.php" service="service61">h</t>
+		<t id="62" path="script.php" service="service62">h</t>
+		<t id="63" path="script.php" service="service63">h</t>
+		<t id="64" path="script.php" service="service64">h</t>
+		<t id="65" path="script.php" service="service65">h</t>
+		<t id="66" path="script.php" service="oGetPlantGenetics">h</t>
+		<t id="67" path="script.php" service="service67">h</t>
+		<t id="68" path="script.php" service="PurchasePaintScript">h</t>
+		<t id="69" path="script.php" service="service69">h</t>
+		<t id="70" path="script.php" service="LevelUpScript">h</t>
+		<t id="71" path="script.php" service="service71">h</t>
+		<t id="72" path="script.php" service="service72">h</t>
+		<t id="73" path="script.php" service="LoadTutorial">h</t>
+		<t id="74" path="script.php" service="service74">h</t>
+		<t id="75" path="script.php" service="service75">h</t>
+		<t id="76" path="script.php" service="oSetPlantGaveXP">h</t>
+		<t id="77" path="script.php" service="service77">h</t>
+		<t id="78" path="script.php" service="service78">h</t>
+		<t id="79" path="script.php" service="service79">h</t>
+		<t id="80" path="script.php" service="service80">h</t>
+		<t id="81" path="script.php" service="service81">h</t>
+		<t id="82" path="script.php" service="service82">h</t>
+		<t id="83" path="script.php" service="service83">h</t>
+		<t id="84" path="script.php" service="service84">h</t>
+		<t id="85" path="script.php" service="service85">h</t>
+		<t id="86" path="script.php" service="service86">h</t>
+		<t id="87" path="script.php" service="GiveItemScript">h</t>
+		<t id="88" path="script.php" service="service88">h</t>
+		<t id="89" path="script.php" service="TakeItemScript">h</t>
+		<t id="90" path="script.php" service="service90">h</t>
+		<t id="91" path="script.php" service="UserGearScript">h</t>
+		<t id="92" path="script.php" service="GetQuestScript">h</t>
+		<t id="93" path="script.php" service="service93">h</t>
+		<t id="94" path="script.php" service="service94">h</t>
+		<t id="95" path="script.php" service="service95">h</t>
+		<t id="96" path="script.php" service="service96">h</t>
+		<t id="97" path="script.php" service="service97">h</t>
+		<t id="98" path="script.php" service="service98">h</t>
+		<t id="99" path="script.php" service="service99">h</t>
+	</asp>
+	<sfs>
+		<t id="0" name="Path" command="wh">ga</t>
+		<t id="1" name="Path" command="wh1">ga</t>
+		<t id="2" name="Path" command="wh2">ga</t>
+		<t id="3" name="Path" command="wh3">ga</t>
+		<t id="4" name="Path" command="wh4">ga</t>
+		<t id="5" name="Path" command="wh5">ga</t>
+		<t id="6" name="Path" command="wh6">ga</t>
+		<t id="7" name="Path" command="wh7">ga</t>
+		<t id="8" name="Path" command="wh8">ga</t>
+	</sfs>
+	<global>
+		<t name="debug" value="true">p</t>
+		<t name="cleanup_interval" value="60000">op</t>
+		<t name="script_path" value="services/">op</t>
+		<t name="loader_show_treshold" value="100"></t>
+		<t name="default_lang" value="en"></t>
+		<t name="log" value="true"></t>
+	</global>
+	<option>
+		<t name="shared_object" value="GLX_OPTION"></t>
+		<t name="show_framerate" value="true"></t>
+		<t name="volume" value="1"></t>
+	</option>
+	<avatar>
+		<t name="res_id" value="1">a</t>
+	</avatar>
+	<clan>
+		<t name="luma_pod_resource_id" value="2">a</t>
+		<t name="luma_pod_resource_path" value="/Capsule">a</t>
+		<t name="subterra_pod_resource_id" value="3">a</t>
+		<t name="subterra_pod_resource_path" value="/Capsule">a</t>
+		<t name="strata_pod_resource_id" value="4">a</t>
+		<t name="strata_pod_resource_path" value="/Capsule">a</t>
+		<t name="therma_pod_resource_id" value="5">a</t>
+		<t name="therma_pod_resource_path" value="/Capsule">a</t>
+		<t name="max_visible_avatar" value="100">a</t>
+	</clan>
+	<planet>
+		<t name="tile_press_treshold" value="1">a</t>
+	</planet>
+	<minigame>
+		<t name="max_wait_time" value="100">a</t>
+	</minigame>
+	<transact>
+		<t name="res_id" value="6">a</t>
+	</transact>
+	<buddy>
+		<t name="refresh_frequency" value="60000">a</t>
+		<t name="refresh_rate" value="1">a</t>
+	</buddy>
+	<chat>
+		<t name="en_dict_res_id" value="7">a</t>
+		<t name="en_dict" value="/Chat/dictionary_en.xml">a</t>
+		<t name="en_tree_res_id" value="8">a</t>
+		<t name="en_tree" value="/Chat/chatTree_en.xml">a</t>
+	</chat>
+	<inventory>
+		<t name="res_id" value="9">a</t>
+	</inventory>
+	<map>
+		<t name="res_id" value="10">a</t>
+	</map>
+	<tutorial>
+		<t name="res_id" value="11">a</t>
+	</tutorial>
+	<quest>
+		<t name="xml_path" value="Quest/quest_en.xml">a</t>
+		<t name="res_id" value="12">a</t>
+	</quest>
+	<help>
+		<t name="res_id" value="13">a</t>
+		<t name="en_xml_res_id" value="14">a</t>
+		<t name="en_xml" value="Help/help.xml">a</t>
+	</help>
+	<lang>
+		<t name="en_res_id" value="15">a</t>
+		<t name="en" value="Chat/Lang_en.xml">a</t>
+	</lang>
+	<item>
+		<t name="res_id" value="16">a</t>
+		<t name="xml_path" value="Item/Item.xml">a</t>
+	</item>
+</config>

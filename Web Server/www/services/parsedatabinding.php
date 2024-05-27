@@ -1,0 +1,1 @@
+Success=true&Service=<?php echo $_GET["Service"] ?>&Result=1~2~3~1~2~3~1~2~3~1~2~3~1~2~3~4~1~2

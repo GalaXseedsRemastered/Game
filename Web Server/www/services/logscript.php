@@ -1,0 +1,1 @@
+Success=true&Service=<?php echo $_GET["Service"] ?>&Result=<?php echo htmlspecialchars($_GET["Msg"]); ?>&

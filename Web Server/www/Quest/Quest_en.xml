@@ -1,0 +1,150 @@
+<quest>
+
+	<quest0 id="0">
+		<q00 id="0" text="Web of Receipt"/>
+		<q01 id="1" text="Listen: are you up for an adventure?  I require a certain uh … sacred artifact that's said to exist somewhere on planet Therma."/>
+		<q02 id="2" text="Alright!  Then journey to far-away planet Therma, where outside the Get-Ups shop is a geyser hole.  Reach into that geyser if you dare, for uh … lo!  Therein lies an untold treasure!  Then bring that treasure to me, if you please."/>	
+		<q03 id="3" text="Did you find the um … the enchanted geyser on planet Therma?  Did you reach into its foul depths and extract its treasure?  No??  Well then, what are you waiting for?"/>
+		<q04 id="4" text="Aha!  Thou ... thou has retrievest the sacred erm … parchment! (Now let's see here … so THAT'S what old Theo is charging for The Magistic these days?  Ha!  I'll have to jack up some of my prices.)  Yes!  Verily, you've um … you've done a good job.  I thank you.  Here – have something from my store room."/>
+		<q05 id="5" text="You rummage around in the mysterious &quot;geyser.&quot;  It smells a bit like garbage.  Finally, you find a receipt from the Therma Get-Ups shop. Maybe this is what Leo Nibmus is after?"/>
+		<q06 id="6" text="Leo Nimbus from the Luma Get-ups shop wants you to find something for him in the geyser outside the Therma Get-ups shop."/>
+		<q07 id="7" text="You've found a Get-Ups shop receipt on Therma that Leo Nimbus from the Luma Get-ups shop might be interested in."/>
+		<q08 id="8" text="Leo Nimbus from the Luma Get-ups shop gave you 5 XP and The Day Trader for finding a competing shop's receipt in a garbage bin on Therma."/>
+		<q09 id="9" text="&lt;i&gt;You earned 5 XP and The Day Trader from Leo Nimbus!&lt;/i&gt;"/>
+	</quest0>
+	
+	<quest1 id="1">
+		<q00 id="0" text="Wish You Were Here"/>
+		<q01 id="1" text="You found a Botanickel in the water!  Maybe somebody threw it in there and made a wish?&lt;br&gt;&lt;br&gt; What a silly Seedizen!  Everyone knows that wishes only come true if you throw your Botanickel in the Strata fountain.  Without your help, this person's wish may never come true!"/>
+		<q02 id="2" text="You decide to come back for the Botanickel when you're not so busy with other things."/>	
+		<q03 id="3" text="You decide to take the Botanickel to the Strata fountain to make the stranger's wish come true!&lt;br&gt;&lt;br&gt;(A Mission has been added to your Mission Log)"/>
+		<q04 id="4" text="You throw the stray Botanickel into the Strata fountain and listen. Somewhere in the distance, you hear the sound of someone growing a big, luxurious moustache. Hooray!  A wish came true!"/>
+		<q06 id="6" text="You found a stray Botanickel on Subterra that someone should have thrown into the wishing fountain on Strata."/>
+		<q07 id="7" text="You earned 5 XP for throwing a stray Botanickel into the wishing fountain on Strata to make someone's wish come true."/>
+		<q08 id="8" text="&lt;i&gt;You've earned 5 XP!&lt;/i&gt;"/>
+	</quest1>
+	
+	<quest2 id="2">
+		<q00 id="0" text="Can You Dig It?"/>
+		<q01 id="1" text="You find a bottle floating in the water.  It looks like there's a note inside.  One of the words in the note is &quot;help!&quot;"/>
+		<q02 id="2" text="Deciding you don't have time to help whoever wrote the note, you toss the bottle back into the water.  It should still be there when curiosity gets the better of you."/>	
+		<q03 id="3" text="Eagerly, you uncork the bottle and read the note:&lt;br&gt;&lt;br&gt;I have been marooned on a Strata Sands chaise lounge for many hours. I have plenty to eat and drink, and I'm getting an amazing tan. I no longer have need of the family fortune I buried on planet Subterra, because no amount of money could buy happiness greater than this. These directions should help you find my treasure if you desire it:&lt;br&gt;&lt;br&gt;Go to the place where the vines spill from walls, growing fat from the steady source of water nearby.&lt;br&gt;The tall, skinny snirkit tree casts its shadow across a solitary stone.&lt;br&gt;My secret lies buried beneath it."/>
+		<q04 id="4" text="This must be the place. You dig beneath the stone and find a small canvas pouch."/>
+		<q06 id="6" text="You found a note that points the way to buried treasure on Subterra."/>
+		<q07 id="7" text="A message in a bottle led you to 750 buried Botnaickels.  Finding the treasure earned you 3 XP."/>
+		<q08 id="8" text="&lt;i&gt;You've earned 750 Botanickels and 3 XP!&lt;/i&gt;"/>
+	</quest2>
+	
+	<quest3 id="3">
+		<q00 id="0" text="Common Census"/>
+		<q01 id="1" text="Say ... I wonder if you could help me?  I'd like some information about the wild flowers growing around the four planets."/>
+		<q02 id="2" text="Excellent.  Do you know what a zurbil is?  It's a small, green umbrella-shaped plant with a round, pinkish flower on top.  There are some zurbils growing near the riverbank by the Lumapodment Complex gates.  Could you please count them for me?"/>	
+		<q03 id="3" text="You're back!  Tell me:&lt;br&gt;&lt;br&gt;how many zurbils did you see growing by the Lumapodment Complex riverbank?"  answer="3"/>
+		<q04 id="4" text="Really?  Are you sure?  There couldn't possibly be that many zurbils this time of year.  Maybe you should count them again, just to be sure?"/>
+		<q05 id="5" text="Aha!  I knew it.  Thank you so much.  Please, take this for your trouble."/>
+		<q06 id="6" text="Ray Enshin from the Therma Garden Shop wants you to count the zurbils outside the Lumapodment Complex.  He says that zurbils are a small, green umbrella-shaped plant with a round, pinkish flower on top."/>
+		<q07 id="7" text="You earned 200 Botanickels and 3 XP by counting zurbils for Ray Enshin at the Therma Garden Shop."/>
+		<q08 id="8" text="&lt;i&gt;You've earned 200 Botanickels and 3 XP!&lt;/i&gt;"/>
+		<q09 id="9" text="&lt;br&gt;&lt;br&gt;&lt;i&gt;You decide to go count the zurbils so you can give Ray the right answer.&lt;/i&gt;"/>
+	</quest3>
+	
+	<quest4 id="4">
+		<q00 id="0" text="Deejay Request"/>
+		<q01 id="1" text="Hear me: I gots ta know a wee thing for da playin of ma musixx, fenner!  Thinking you about ta find me some skinny-skinny on how me goin' make more ringin'?"/>
+		<q02 id="2" text="Slappish!  Now check it, me:&lt;br&gt;&lt;br&gt;"/>	
+		<q03 id="3" text="I need you a-tells what Seedizen leads up the All-Flarnt Band." answer="Yarb Spartsins" />
+		<q04 id="4" text="I need you a-tells what chart placing gets da musixx for Blamp it Like It's Hot. What numbah?" answer="5" />
+		<q05 id="5" text="I need you a-tells who da Seedizen what plays musixx with Braahg.  What his name?" answer="Wiks" />
+		<q06 id="6" text="I can't amember dat musixx name - Somewhere Over da … what?  Over da what?" answer="Sloople" />
+		<q07 id="7" text="I need you a-tells me what you Glorb Glorb Glorb.  It's in a musixx, but I can't amember." answer="flort" />
+		<q08 id="8" text="It's a musixx question.  Go find out an let you know to me."/>
+		<q09 id="9" text="Wumpit, fenner!" />
+		<q10 id="10" text="Knows you for tha answerin'?" />
+		<q11 id="11" text="Mmm … that don't grunk right on me.  I make a look in my box, but I see me not that musixx.  Come back when you knowledge it, fenner!" />
+		<q12 id="12" text="Yeah - dat's it!  Here it is in my musixx box.  Slappin' you grunkish, fenner!" />
+		<q13 id="13" text="N'Jah Rytem, the Club Strata DJ, wants you to answer some music trivia for him.  You think." />
+		<q14 id="14" text="You earned 4 XP for answering N'Jah Rytem's music question at Club Strata." />
+		<q15 id="15" text="&lt;i&gt;You've earned 4 XP!&lt;/i&gt;"/>
+		<q16 id="16" text="&lt;br&gt;&lt;br&gt;&lt;i&gt;You decide to research the answer to N'Jah Rytem's music trivia question.&lt;/i&gt;"/>
+	</quest4>
+	
+	<quest5 id="5">
+		<q00 id="0" text="Baby on Board"/>
+		<q01 id="1" text="I'm ah … I'm glad that you're here!  It seems that while I wasn't uh … wasn't looking, one of our baby papayuses slipped through the bars of its cage and wandered off!  The mother uh … mother papyus is very worried."/>
+		<q02 id="2" text="I'm so uh … so glad you can help.  Now papyuses, as you know, are very uh … very good at blending into their uh … their surroundings.  I'm sure if you look closely enough, you'll uh … you'll find the little tyke somewhere on … on, uh, on Luma."/>	
+		<q03 id="3" text="Did you uh … did you find that little baby papyus roaming around Luma?  No?  Well, uh … please uh … please hurry.  It mother is getting … erm … she's getting very upset.  And nobody likes a … a … you know.  An upset papyus."/>
+		<q04 id="4" text="You uh … you found uh … it!  You found the baby erm … the baby papyus!  Thank you so much.  I'll put it back in its cage with um … with its mother."/>
+		<q05 id="5" text="This little guy wandered away from Lumazu when Ned Keepa wasn't looking.  You promised Ned you'd find him and bring him back.  "/>
+		<q06 id="6" text="Ned Keepa has asked you to track down a baby papayus that escaped from Lumazu when he wasn't looking."/>
+		<q07 id="7" text="You found the escaped baby papayus.  Now you just have to return him to Lumazu."/>
+		<q08 id="8" text="Ned Keepa paid you 500 Botanickels and you earned 2 XP tracking down a baby papayus that escaped from Lumazu."/>
+		<q09 id="9" text="&lt;i&gt;You've earned 500 Botanickels and 2 XP!&lt;/i&gt;"/>
+	</quest5>
+	
+	<quest6 id="6">
+		<q00 id="0" text="Fit to be Tied"/>
+		<q01 id="1" text="Say … you look like you spend a little time outdoors.  I'm so lost in my studies I barely have time to leave this place.  Would you mind running a little errand for me?"/>
+		<q02 id="2" text="Splendid!  Now, see this tie I like to wear?  It's getting quite ratty with dust and papercuts, and I daresay I need a new one.  No – make that FIVE new ones!  Who knows when I'll get this chance again?&lt;br&gt;&lt;br&gt;Could you please find me five of these ties so that I don't have to interrupt my studies?"/>	
+		<q03 id="3" text="There you are!  Let's see … hmm.  Well, I wonder if you misheard me.  I was asking for five ties that look like the one I'm wearing.  It's the only kind that looks good on me, you know. Very slimming. Come back and see me when you've found the ties I so richly deserve!"/>
+		<q04 id="4" text="Wonderful!  You've managed to find five ties that are identical to the one I'm wearing!  Thank you so much."/>
+		<q05 id="5" text="Hal Manax, head Thermabrarian, has asked you to find five ties like the one he's wearing."/>
+		<q06 id="6" text="You earned 5 XP for finding five ties for Hal Manax at the Thermabrary."/>
+		<q07 id="7" text="&lt;i&gt;You've earned 5 XP!&lt;/i&gt;"/>
+	</quest6>
+	
+	<quest7 id="7">
+		<q00 id="0" text="The Hat Came Back"/>
+		<q01 id="1" text="Gotta get me one of those HOSER HATS!  Yes!  Gotta GET ONE!"/>
+		<q02 id="2" text="Good!  Ha!  Go get it!"/>	
+		<q03 id="3" text="No good!  Where's that Hoser?  Ha!  Where?  Go!  GOOOO!!!"/>
+		<q04 id="4" text="YES!!!  Yes, ha!  It's one of them HOSERS!  Yes!   It's DELICIOUS!!  Hmm!  Ha!!  Yes!!  (BRAPPABAAAARP!)"/>
+		<q05 id="5" text="Pax Furny wants you to give him The Hoser."/>
+		<q06 id="6" text="You earned 2 XP for feeding The Hoser to Pax Furny on Subterra."/>
+		<q07 id="7" text="&lt;i&gt;You earned 2 XP!&lt;/i&gt;"/>
+	</quest7>
+	
+	<quest8 id="8">
+		<q00 id="0" text="Up for Grubs"/>
+		<q01 id="1" text="All the other grubbuses are laughing at me.  They say I've got two hundred left feet, and that I couldn't win a race if my life depended on it.  You gotta help me!"/>
+		<q04 id="3" text="Alright!  So all you gotta do is take me to a Caterthrillar race.  We'll have to pick up at least 50 points to show those other grubbuses we mean business.  Let's go!"/>
+		<q04 id="4" text="Aw, plrbrap.  We still haven't picked up 50 points in a Caterthrillar race, and the other grubbuses tease me every chance they get.  Can we PLEASE have a good race next time?"/>
+		<q05 id="5" text="Ha ha ha!  We did it!  Those other grubbuses went home with their tails between their uh … tails.  Thanks for showin' em I could really race."/>
+		<q06 id="6" text="Your grubbus, who hangs out on the garden arbour in your Pod, wants you to take him to the races to earn 50 Caterthrillar points."/>
+		<q07 id="7" text="You earned 2 XP for earning 50 Caterthrillar points with your grubbus."/>
+		<q08 id="8" text="&lt;i&gt;You earned 2 XP!&lt;/i&gt;"/>
+	</quest8>
+	
+	<quest9 id="9">
+		<q00 id="0" text="Crash Course"/>
+		<q01 id="1" text="Now, tell me: were you around when we had that nasty business of the Spaceticides' ship crashing on planet Luma?  I wonder if you could help me write an account of it?"/>
+		<q02 id="2" text="Good, good.  I remember the crash vividly.  I was sitting right here when it happened!  But I can't, for the life of me, remember in which month the spaceship crashed.  If you remember, could you please let me know?  It's embarrassing for a historian to flub his dates."/>	
+		<q03 id="3" text="Ah, there you are.  Did you remember the month in which the spaceship crashed on Luma?" answer="Joob"/>
+		<q04 id="4" text="Was it really?  Are you sure?  I don't want to write it down unless you're absolutely sure!"/>
+		<q05 id="5" text="Joob!  Yes, that was it!  It's the same month as one of my birthdays!  How could I forget?"/>
+		<q06 id="6" text="Ish Torya, the Museum curator, wants to know the month in which the Spaceticides' ship crashed on Luma."/>
+		<q07 id="7" text="You earned 2 XP for reminding Ish Torya of when the Spaceticides' ship crashed on Luma."/>
+		<q08 id="8" text="&lt;i&gt;You've earned 2 XP.&lt;/i&gt;"/>
+		<q09 id="9" text="&lt;br&gt;&lt;br&gt;&lt;i&gt;You decide to visit the site of the crash to discover the answer.&lt;/i&gt;"/>
+	</quest9>
+
+	<common id="1001">
+		<com01 id="0" text="You've got a little too much going on right now to accept this Mission! You should try to complete your other Missions before accepting this one."/>
+		<com02 id="1" text="Are you sure want to abandon this mission?"/>
+		<com02 id="2" text="Sorry, you don't have enough room in your inventory. Come back later to complete the mission!"/>
+	</common>
+	
+	<npc id="1002">
+		<ned_keepa id="0" Name="Ned Keepa" intro="Oh!  Erm … hello!  Welcome to um … Lumazu!" outro="You have a um … a fine day, now."/>
+		<ish_torya id="1" Name="Ish Torya" intro="Garrumpa!  Welcome to the Museum!" outro="Take a look around while you're here – there's always plenty to see!"/>
+		<njah_rytem id="2" Name="N'Jah Rytem" intro="Dig tha grunkish beats an slurb your head to da musixx, fenner!" outro="Weeple! Catch you on da nurbitz!"/>
+		<hal_manax id="3" Name="Hal Manax" intro="Hmm? Oh, hello. Let me just put my bookmark in." outro="Well then. It's good to see you, but I must get back to my studies."/>
+		<pax_furny id="4" Name="Pax Furny" intro="HA!!  Yes!   Ha ha!" outro="Good!  Yes!  HA!!"/>
+		<leo_nimbus id="5" Name="Leo Nimbus" intro="Hello and good day! I tip my hat to you!" outro="Well! Have a wonderful day.  May your fashion bring you forune!"/>
+		<ray_enshin id="6" Name="Ray Enshin" intro="Hello!  It's a fine day for gardening." outro="Come back and see me for the latest in gardening technology!"/>
+		<your_grubbus id="7" Name="Your Grubbus" intro="Oh, so you've finally noticed me?" outro="Ok.  Don't worry about me.  I'll be fine, I guess."/>
+	</npc>
+
+	<author id="1003">
+		<author01 id="0" text="The Big Rip Team"/>
+	</author>
+</quest>

@@ -1,0 +1,1 @@
+Success=true&Service=<?php echo $_GET["Service"] ?>&Result=141826~ym_farto~true~1~2~5~Clodhopper~10837&
