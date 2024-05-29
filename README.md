@@ -1,5 +1,3 @@
-# Game
-
 # GalaXseeds Remastered
 
 [![Discord](https://img.shields.io/discord/1106807744545161248.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.com/invite/pBhcuPcdWu)
